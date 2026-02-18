@@ -8,6 +8,13 @@
     <meta name="description"
         content="Foto Alemán - Estudio fotográfico con 30 años de trayectoria en Cuernavaca. Retratos, graduaciones, bodas y fotografía comercial.">
 
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -17,43 +24,104 @@
 
 <body>
 
-    <!-- TOP BAR -->
-    <div class="top-bar">
-        LUZ QUE TRASCIENDE
-    </div>
-
     <!-- HEADER -->
     <header>
-        <div class="container nav-container">
+        <div class="nav-container">
             <div class="logo">
                 <a href="index.html">
-                    <img src="Credencial Pepe Aleman.png" alt="Foto Alemán" style="max-height: 80px;">
+                    <img src="Credencial Pepe Aleman.png" alt="Foto Alemán">
                 </a>
-                <p>José Alemán · 30 años de legado</p>
             </div>
             <nav class="nav-links">
-                <a href="graduaciones.html">Graduaciones</a>
-                <a href="estolas.html">Estolas</a>
-                <a href="bodas.html">Bodas</a>
-                <a href="empresas.html">Empresas</a>
-                <a href="trayectoria.html">Trayectoria</a>
-                <a href="contacto.html">Contacto</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#trayectoria">Trayectoria</a>
+                <a href="#historias">Historias</a>
             </nav>
-            <div class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
+            <div class="header-actions">
+                <a href="contacto.html" class="subscribe-btn">Contacto</a>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     </header>
 
     <!-- HERO -->
     <section class="hero" id="home">
-        <div class="container hero-content fade-in">
+        <div class="hero-content fade-in">
+            <span class="hero-category">Fotografía de Autor</span>
             <h2>El arte de retratar<br>lo extraordinario</h2>
             <p>De personalidades mundiales a tu historia. Premio Nacional de Periodismo 1998.</p>
             <div class="hero-buttons">
-                <a href="graduaciones.html" class="btn btn-primary">Ver catálogo</a>
-                <a href="contacto.html" class="btn btn-outline" style="color: white; border-color: white;">QR
-                    digital</a>
+                <a href="#catalogo" class="btn-hero">Descubre Más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: HISTORIAS (CATÁLOGO) -->
+    <section class="section-padding" id="catalogo">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Nuestras Colecciones</span>
+                <h2>Momentos que <span class="gold-text">Perduran</span></h2>
+            </div>
+
+            <div class="grid-cards">
+                <!-- Card 1 -->
+                <a href="graduaciones.html" class="card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Graduaciones" class="card-img">
+                    </div>
+                    <span class="card-category">Académico</span>
+                    <h3>Graduaciones</h3>
+                    <p>Celebra el cierre de un ciclo con la elegancia que mereces.</p>
+                    <span class="card-link">Ver Paquetes</span>
+                </a>
+
+                <!-- Card 2 -->
+                <a href="bodas.html" class="card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Bodas" class="card-img">
+                    </div>
+                    <span class="card-category">Eterno</span>
+                    <h3>Bodas y Eventos</h3>
+                    <p>La narrativa visual del día más importante de tu vida.</p>
+                    <span class="card-link">Explorar Galería</span>
+                </a>
+
+                <!-- Card 3 -->
+                <a href="estolas.html" class="card">
+                    <div class="card-img-container">
+                        <img src="https://images.unsplash.com/photo-1531844251246-9a1bfaaeeb9a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Estolas" class="card-img">
+                    </div>
+                    <span class="card-category">Exclusivo</span>
+                    <h3>Estolas y Marcos</h3>
+                    <p>Detalles únicos que enmarcan tu éxito profesional.</p>
+                    <span class="card-link">Ver Colección</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: FEATURED (TRAYECTORIA) -->
+    <section class="featured-section" id="trayectoria">
+        <div class="container">
+            <div class="featured-grid">
+                <div class="featured-image">
+                    <!-- Placeholder for a high-impact image, maybe Pepe's photo or a famous shot -->
+                    <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                        alt="Trayectoria" style="width: 100%; height: auto; display: block;">
+                </div>
+                <div class="featured-content">
+                    <span class="hero-category" style="border-color: rgba(255,255,255,0.2);">Legado</span>
+                    <h2>30 Años de Mirada Única</h2>
+                    <p>Desde retratar a figuras mundiales hasta capturar la esencia de las familias morelenses. Una vida
+                        dedicada a encontrar la luz perfecta en cada historia.</p>
+                    <a href="trayectoria.html" class="btn-featured">Leer Biografía</a>
+                </div>
             </div>
         </div>
     </section>
@@ -61,22 +129,39 @@
     <!-- FOOTER -->
     <footer>
         <div class="container">
-            <img src="Logotrasero.png" alt="Foto Alemán" style="max-width: 150px; height: auto; margin-bottom: 15px;">
-            <div class="social-links" style="margin: 20px 0;">
+            <img src="Logotrasero.png" alt="Foto Alemán" style="max-width: 120px; opacity: 0.8; margin-bottom: 30px;">
+
+            <div class="social-links" style="margin-bottom: 30px;">
                 <a href="https://www.instagram.com/foto_aleman_/" target="_blank"
-                    style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                    style="margin: 0 15px; font-size: 1.2rem; color: #fff;"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.facebook.com/FotoAleman" target="_blank"
-                    style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                    style="margin: 0 15px; font-size: 1.2rem; color: #fff;"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.tiktok.com/@fotoaleman" target="_blank"
-                    style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-tiktok"></i></a>
-                <a href="https://wa.me/5217771923760" target="_blank" style="margin: 0 10px; font-size: 1.5rem;"><i class="fab fa-whatsapp"></i></a>
+                    style="margin: 0 15px; font-size: 1.2rem; color: #fff;"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/5217771923760" target="_blank"
+                    style="margin: 0 15px; font-size: 1.2rem; color: #fff;"><i class="fab fa-whatsapp"></i></a>
             </div>
-            <p style="margin-top: 10px;">&copy; 2026 Foto Alemán · Treinta años de mirada única.</p>
+
+            <div
+                style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.75rem; letter-spacing: 0.05em; color: #666;">
+                <p>&copy; 2026 FOTO ALEMÁN. TODOS LOS DERECHOS RESERVADOS.</p>
+            </div>
         </div>
     </footer>
 
     <!-- SCRIPTS -->
     <script src="script.js"></script>
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 
 </html>
