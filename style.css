@@ -183,8 +183,8 @@ header.scrolled .logo img {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--color-white);
-    /* White on hero */
+    color: var(--color-black);
+    /* Always black per user request */
     position: relative;
     padding-bottom: 5px;
 }
