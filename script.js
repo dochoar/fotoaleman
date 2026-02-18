@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const qrContainer = document.getElementById("qrcode");
     if (qrContainer) {
         new QRCode(qrContainer, {
-            text: "https://josealeman.github.io/fotoaleman",
+            text: "https://fotoaleman.com",
             width: 180,
             height: 180,
             colorDark: "#1E1E1E",
@@ -231,4 +231,56 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     }
+    // Video Carousel Observer
+    // Video Carousel Click-to-Play
+    // Video Carousel Click-to-Play
+    // document.addEventListener('DOMContentLoaded', () => { // Removed nested listener
+    const videoCards = document.querySelectorAll('.video-card');
+
+    videoCards.forEach(card => {
+        const video = card.querySelector('video');
+        const overlay = card.querySelector('.video-overlay');
+
+        if (video && overlay) {
+            // Remove autoplay attributes just in case
+            video.removeAttribute('autoplay');
+            video.removeAttribute('loop');
+
+            card.addEventListener('click', (e) => {
+                // Prevent click if clicking on controls
+                if (e.target === video && video.controls) return;
+
+                if (video.paused) {
+                    video.play();
+                    card.classList.add('playing');
+                    video.controls = true;
+                } else {
+                    video.pause();
+                    card.classList.remove('playing');
+                    // Optional: keep controls or hide them? 
+                    // Usually click on card means toggle. 
+                    // If controls are visible, clicking video might be handled by controls.
+                }
+            });
+
+            video.addEventListener('ended', () => {
+                card.classList.remove('playing');
+                video.load(); // Reset to poster
+                video.controls = false;
+            });
+
+            video.addEventListener('pause', () => {
+                if (!video.ended && !video.seeking) {
+                    card.classList.remove('playing');
+                    video.controls = false; // Optional: hide controls again to show clean overlay?
+                }
+            });
+
+            video.addEventListener('play', () => {
+                card.classList.add('playing');
+                video.controls = true;
+            });
+        }
+    });
+    // });
 });

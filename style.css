@@ -160,9 +160,14 @@ header.scrolled {
 }
 
 .logo img {
-    height: 50px;
-    /* Smaller, elegant logo */
-    transition: transform 0.3s ease;
+    height: 90px;
+    /* Larger initial logo */
+    transition: all 0.4s ease;
+}
+
+header.scrolled .logo img {
+    height: 60px;
+    /* Shrinks on scroll */
 }
 
 .nav-links {
@@ -1061,4 +1066,84 @@ footer p {
 .placa-item:hover {
     box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
     transform: translateY(-2px);
+}
+
+/* --- VIDEO CAROUSEL --- */
+.video-carousel-section {
+    background-color: var(--color-white);
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.video-scroller {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 5vw;
+    /* Add padding to sides so first/last items aren't flush */
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.video-scroller::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.video-card {
+    flex: 0 0 auto;
+    width: 280px;
+    height: 500px;
+    position: relative;
+    border-radius: var(--radius);
+    overflow: hidden;
+    scroll-snap-align: center;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition);
+}
+
+.video-card video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    /* Visible by default */
+    transition: var(--transition);
+}
+
+/* Hover effect removed as it is now visible by default */
+/* .video-card:hover .video-overlay {
+    opacity: 1;
+} */
+
+.video-card.playing .video-overlay {
+    opacity: 0 !important;
+    pointer-events: none;
+}
+
+.video-overlay i {
+    color: var(--color-white);
+    font-size: 3rem;
+    filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 768px) {
+    .video-card {
+        width: 220px;
+        height: 400px;
+    }
 }
