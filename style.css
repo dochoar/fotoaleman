@@ -1102,6 +1102,7 @@ footer p {
     scroll-snap-align: center;
     box-shadow: var(--shadow-soft);
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .video-card video {

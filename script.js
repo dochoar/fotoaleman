@@ -246,20 +246,31 @@ document.addEventListener("DOMContentLoaded", function () {
             video.removeAttribute('autoplay');
             video.removeAttribute('loop');
 
-            card.addEventListener('click', (e) => {
+            card.addEventListener('click', async (e) => {
                 // Prevent click if clicking on controls
                 if (e.target === video && video.controls) return;
 
                 if (video.paused) {
-                    video.play();
-                    card.classList.add('playing');
-                    video.controls = true;
+                    try {
+                        // Ensure we aren't silenced if possible, but handle limitations
+                        // video.muted = false;
+                        await video.play();
+                        card.classList.add('playing');
+                        video.controls = true;
+                    } catch (err) {
+                        console.warn("Video playback failed, trying muted:", err);
+                        try {
+                            video.muted = true;
+                            await video.play();
+                            card.classList.add('playing');
+                            video.controls = true;
+                        } catch (err2) {
+                            console.error("Video playback failed completely:", err2);
+                        }
+                    }
                 } else {
                     video.pause();
                     card.classList.remove('playing');
-                    // Optional: keep controls or hide them? 
-                    // Usually click on card means toggle. 
-                    // If controls are visible, clicking video might be handled by controls.
                 }
             });
 
