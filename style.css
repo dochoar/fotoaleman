@@ -1212,4 +1212,60 @@ footer p {
     .section-header h2 {
         font-size: 2.2rem;
     }
+
+    /* --- MOBILE MENU --- */
+    .mobile-menu-btn {
+        display: block;
+        /* Show hamburger on mobile */
+        z-index: 1001;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background-color: var(--color-white);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    .nav-links.active {
+        transform: translateY(0);
+    }
+
+    .nav-links a {
+        font-size: 1.5rem;
+        margin: 15px 0;
+        color: var(--color-black) !important;
+        /* Ensure visibility */
+    }
+
+    /* --- FOOTER OPTIMIZATION --- */
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-logo,
+    .footer-links,
+    .social-icons {
+        margin: 0 auto;
+    }
+
+    /* --- GENERAL OPTIMIZATIONS --- */
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .container {
+        padding: 0 15px;
+        /* Less padding on sides */
+    }
 }

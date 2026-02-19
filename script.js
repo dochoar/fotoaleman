@@ -203,11 +203,18 @@ document.addEventListener("DOMContentLoaded", function () {
         mobileMenuBtn.addEventListener('click', () => {
             navLinks.classList.toggle('active');
 
-            // Optional: Animate icon
+            // Optional: Toggle icon between bars and times
             const icon = mobileMenuBtn.querySelector('i');
             if (icon) {
-                icon.classList.toggle('fa-bars');
-                icon.classList.toggle('fa-times');
+                if (navLinks.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                    icon.style.color = 'var(--color-black)'; // Ensure close icon is visible on white menu
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                    icon.style.color = ''; // Reset color
+                }
             }
         });
 
@@ -217,16 +224,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 navLinks.classList.remove('active');
                 const icon = mobileMenuBtn.querySelector('i');
                 if (icon) {
-                    icon.classList.add('fa-bars');
                     icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                    icon.style.color = '';
                 }
             });
         });
     }
-    // Video Carousel Observer
-    // Video Carousel Click-to-Play
-    // Video Carousel Click-to-Play
-    // document.addEventListener('DOMContentLoaded', () => { // Removed nested listener
+
+    // Video Carousel Logic
     const videoCards = document.querySelectorAll('.video-card');
 
     videoCards.forEach(card => {
