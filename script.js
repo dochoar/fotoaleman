@@ -26,6 +26,9 @@ var images = document.querySelectorAll(".card-img");
 
 if (images.length > 0) {
     images.forEach(function (img) {
+        // Skip images that are inside links to allow navigation
+        if (img.closest('a')) return;
+
         img.onclick = function () {
             if (modal) {
                 modal.style.display = "block";
