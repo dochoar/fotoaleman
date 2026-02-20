@@ -1173,6 +1173,11 @@ footer p {
     }
 }
 
+/* --- PAGE SPECIFIC --- */
+#estolas {
+    padding-top: 140px;
+}
+
 /* --- MOBILE RESPONSIVENESS FIXES --- */
 @media (max-width: 768px) {
 
@@ -1186,6 +1191,10 @@ footer p {
         padding: 10px 0;
         top: auto;
         /* Reset top positioning */
+    }
+
+    #estolas {
+        padding-top: 50px;
     }
 
     .logo img {
