@@ -422,9 +422,12 @@ header.scrolled .mobile-menu-btn {
 }
 
 .hero-content {
-    max-width: 800px;
+    width: 100%;
+    max-width: min(90vw, 65vh);
+    /* Constrain width to image aspect ratio */
     padding: 0 20px;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
 }
 
 .hero-category {
