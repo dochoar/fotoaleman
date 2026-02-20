@@ -78,7 +78,8 @@ const ArticleCarousel = ({ title, articles }) => {
                                             fontFamily: 'var(--font-serif)',
                                             display: 'block',
                                             overflow: 'visible',
-                                            height: 'auto'
+                                            height: 'auto',
+                                            textAlign: 'center'
                                         }}>
                                             {article.title}
                                         </h3>

@@ -407,7 +407,7 @@ header.scrolled .mobile-menu-btn {
 
 /* --- HERO (Nómada Style) --- */
 .hero {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.6) 100%), url('/photo_day_hacienda.jpg');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.6) 100%), url('/hero-bg-new.jpg');
     background-color: #2c2c2c;
     background-size: cover;
     background-position: center;
@@ -516,6 +516,19 @@ header.scrolled .mobile-menu-btn {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 40px;
     padding-bottom: 40px;
+}
+
+.centered-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.centered-grid .card {
+    flex: 1 1 280px;
+    max-width: 350px;
+    /* Optional: limit width for better aesthetics on large screens */
 }
 
 .card {

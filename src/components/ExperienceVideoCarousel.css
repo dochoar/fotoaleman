@@ -13,8 +13,6 @@
     font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 700;
     margin-bottom: 5px;
-    border-left: 5px solid var(--color-dorado);
-    padding-left: 20px;
     color: var(--color-text-main);
     display: inline-block;
     line-height: 1.1;

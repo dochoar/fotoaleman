@@ -103,7 +103,7 @@ const TesorosCarousel = ({ title, subtitle, articles: propArticles }) => {
                         return (
                             <SwiperSlide key={item.id || index}>
                                 <Link to={linkUrl} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
-                                    <div className="tesoro-card" style={{ transition: 'transform 0.3s ease' }}>
+                                    <div className="tesoro-card" style={{ transition: 'transform 0.3s ease', textAlign: 'center' }}>
                                         <div className="image-wrapper" style={{
                                             aspectRatio: '4/3', // Slightly wider than portrait to match screenshot
                                             overflow: 'hidden',

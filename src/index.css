@@ -123,8 +123,7 @@ ul {
   /* Fluid margin */
   font-size: clamp(1.1rem, 2vw, 1.3rem);
   /* Fluid font size */
-  border-left: 4px solid var(--color-primary);
-  padding-left: 15px;
+  text-align: center;
   color: var(--color-text-main);
 }
 
@@ -3732,11 +3731,14 @@ ul {
   display: flex;
   align-items: center;
   /* Center vertically for a more premium focus */
+  justify-content: center;
   padding-bottom: 0;
 }
 
 .magazine-hero-text {
-  max-width: 800px;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .magazine-category {
