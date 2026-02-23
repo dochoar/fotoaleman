@@ -874,7 +874,7 @@ footer p {
     display: none;
     position: fixed;
     z-index: 2000;
-    padding-top: 50px;
+    padding-top: 30px;
     left: 0;
     top: 0;
     width: 100%;
@@ -887,9 +887,10 @@ footer p {
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 900px;
-    max-height: 80vh;
+    width: 95%;
+    max-width: 1600px;
+    height: auto;
+    max-height: 95vh;
     object-fit: contain;
     border-radius: var(--radius);
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
