@@ -32,13 +32,13 @@
                 </a>
             </div>
             <nav class="nav-links">
-                <a href="#catálogo">Catálogo</a>
+                <a href="index.html#catálogo">Catálogo</a>
                 <a href="graduaciones.html">Graduaciones</a>
                 <a href="bodas.html">Bodas</a>
                 <a href="estolas.html">Estolas</a>
                 <a href="estudio.html">Estudio</a>
-                <a href="#trayectoria">Trayectoria</a>
-                <a href="#historias">Historias</a>
+                <a href="index.html#trayectoria">Trayectoria</a>
+                <a href="index.html#historias">Historias</a>
             </nav>
             <div class="header-actions">
                 <a href="contacto.html" class="subscribe-btn">Contacto</a>
@@ -49,22 +49,93 @@
         </div>
     </header>
 
-    <!-- SECTION: CONTENT -->
-    <section class="section-padding"
-        style="min-height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: var(--color-white);">
+    <!-- SECTION: GRID INCORPORATED -->
+    <section class="section-padding" style="background-color: var(--color-white); padding-bottom: 20px;">
         <div class="container" style="text-align: center;">
             <div class="section-header fade-in">
                 <h2>Sesiones Infantiles</h2>
-                <p>Capturando la magia y espontaneidad de los más pequeños.</p>
-            </div>
-
-            <!-- Empty container for future content -->
-            <div class="infantiles-content fade-in" style="margin-top: 40px;">
-                <p style="color: #666; font-style: italic;">(Espacio reservado para portafolio de sesiones infantiles)
-                </p>
+                <p>Capturando la ternura, el amor maternal y la magia de crecer.</p>
             </div>
         </div>
     </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="section-padding" style="background-color: #f9f9f9; padding-top: 20px;">
+        <div class="container">
+            <div class="infantiles-gallery">
+                <div class="gallery-item item-retrato fade-in">
+                    <img src="Fotos Infantiles/embarazada.jpg" alt="Maternidad" class="hover-zoom">
+                </div>
+                <!-- Columna derecha agrupada por grid / grid de dos rows -->
+                <div class="gallery-item item-nina fade-in">
+                    <img src="Fotos Infantiles/nina.jpg" alt="Niña Recostada" class="hover-zoom">
+                </div>
+                <div class="gallery-item item-familia fade-in">
+                    <img src="Fotos Infantiles/familia.jpg" alt="Retrato Familiar" class="hover-zoom">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .infantiles-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: 250px;
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            display: block;
+        }
+
+        .gallery-item:hover img.hover-zoom {
+            transform: scale(1.05);
+        }
+
+        /* Responsive Masonry imitation */
+        .item-retrato {
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
+        }
+
+        .item-nina {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+        }
+
+        .item-familia {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        @media (max-width: 768px) {
+            .infantiles-gallery {
+                grid-template-columns: 1fr;
+                grid-auto-rows: minmax(300px, auto);
+            }
+
+            .item-retrato,
+            .item-nina,
+            .item-familia {
+                grid-column: 1 / -1;
+                grid-row: auto;
+            }
+        }
+    </style>
 
     <!-- FOOTER -->
     <footer>

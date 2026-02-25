@@ -33,10 +33,13 @@
                 </a>
             </div>
             <nav class="nav-links">
-                <a href="#catálogo">Catálogo</a>
+                <a href="index.html#catálogo">Catálogo</a>
+                <a href="graduaciones.html">Graduaciones</a>
+                <a href="bodas.html">Bodas</a>
+                <a href="estolas.html">Estolas</a>
                 <a href="estudio.html">Estudio</a>
-                <a href="#trayectoria">Trayectoria</a>
-                <a href="#historias">Historias</a>
+                <a href="index.html#trayectoria">Trayectoria</a>
+                <a href="index.html#historias">Historias</a>
             </nav>
             <div class="header-actions">
                 <a href="contacto.html" class="subscribe-btn">Contacto</a>
@@ -183,6 +186,29 @@
                 </div>
 
             </div>
+
+            <!-- Wedding Photography Gallery -->
+            <div class="section-header fade-in" style="margin-top: 80px;">
+                <h2>Galería de Bodas</h2>
+                <p>Momentos Inolvidables</p>
+            </div>
+            <div class="wedding-gallery">
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Bodas/media__1772047965754.jpg" alt="Fotografía de Boda">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Bodas/media__1772047965822.jpg" alt="Fotografía de Boda">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Bodas/media__1772047965865.jpg" alt="Fotografía de Boda">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Bodas/media__1772047965770.jpg" alt="Fotografía de Boda">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Bodas/media__1772047965793.jpg" alt="Fotografía de Boda">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -225,6 +251,35 @@
             }
         });
     </script>
+
+    <style>
+        .wedding-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .wedding-gallery .gallery-item {
+            overflow: hidden;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            background: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .wedding-gallery .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .wedding-gallery .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            min-height: 250px;
+        }
+    </style>
 </body>
 
 </html>
