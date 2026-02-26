@@ -1421,3 +1421,36 @@ footer p {
         transform: translateX(-50%) translateY(-5px);
     }
 }
+
+/* --- ELEGANT WHATSAPP BUTTON --- */
+.btn-whatsapp-elegant {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    padding: 14px 20px;
+    border: 1px solid var(--color-gold);
+    color: var(--color-gold);
+    background: transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.75rem;
+    font-weight: 700;
+    transition: var(--transition);
+    cursor: pointer;
+    font-family: var(--font-main);
+}
+
+.btn-whatsapp-elegant i {
+    font-size: 1.4em;
+    font-weight: normal; /* Make the icon slightly thinner if possible in FA */
+}
+
+.btn-whatsapp-elegant:hover {
+    background-color: var(--color-gold);
+    color: var(--color-white);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(199, 154, 107, 0.2);
+}
