@@ -14,7 +14,7 @@ export default defineConfig({
         empresas: 'empresas.html',
         trayectoria: 'trayectoria.html',
         contacto: 'contacto.html',
-        politicas: 'politicas.html',
+
         estudio: 'estudio.html',
         editorial: 'editorial.html',
         producto: 'producto.html',

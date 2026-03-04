@@ -80,7 +80,7 @@ fotoaleman/
 ├── empresas.html         # Servicios empresariales
 ├── trayectoria.html      # Historia y legado
 ├── contacto.html         # Página de contacto
-├── politicas.html        # Políticas y términos
+
 ├── style.css             # Estilos globales
 ├── script.js             # JavaScript principal
 ├── vite.config.js        # Configuración de Vite

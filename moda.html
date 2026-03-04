@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografía de Moda · Foto Alemán</title>
+    <meta name="description" content="Foto Alemán - Fotografía de moda profesional.">
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Credencial Pepe Aleman.png" alt="Foto Alemán">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html#catálogo">Catálogo</a>
+                <a href="graduaciones.html">Graduaciones</a>
+                <a href="bodas.html">Bodas</a>
+                <a href="estolas.html">Estolas</a>
+                <a href="estudio.html">Estudio</a>
+                <a href="index.html#trayectoria">Trayectoria</a>
+                <a href="index.html#historias">Historias</a>
+            </nav>
+            <div class="header-actions">
+                <a href="contacto.html" class="subscribe-btn">Contacto</a>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION: HEADER -->
+    <section class="section-padding" style="background-color: var(--color-white); padding-bottom: 40px;">
+        <div class="container" style="text-align: center;">
+            <div class="section-header fade-in">
+                <h2>Fotografía de Moda</h2>
+                <p>Capturando la esencia del estilo y la vanguardia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: IMPACT (CAMBIO DE COLOR LLAMATIVO) -->
+    <section class="section-padding" style="background-color: #1a1a1a; color: #fff; text-align: center;">
+        <div class="container fade-in">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <span
+                    style="color: var(--color-gold); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; font-weight: 600;">Estilo
+                    y
+                    Vanguardia</span>
+                <h2
+                    style="color: #fff; margin-top: 15px; margin-bottom: 25px; font-family: 'Playfair Display', serif; font-size: 2.2rem;">
+                    El arte de destacar cada detalle</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8; opacity: 0.8; font-family: 'Inter', sans-serif;">
+                    La fotografía de moda es más que mostrar prendas; es transmitir una actitud y contar una historia.
+                    En Foto Alemán, combinamos iluminación técnica y visión artística para crear imágenes impactantes
+                    que elevan colecciones, diseñadores y modelos a su máxima expresión.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: GALLERY -->
+    <section class="section-padding" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="editorial-gallery">
+                <!-- Large landscape -->
+                <div class="gallery-item large-item fade-in">
+                    <img src="Fotos Moda/portada.jpg" alt="Portada Fotografía Moda">
+                </div>
+                <!-- Vertical -->
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Moda/foto1.jpg" alt="Fotografía Moda 1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .editorial-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            background: #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .large-item {
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+        @media (max-width: 768px) {
+            .large-item {
+                grid-column: span 1;
+            }
+        }
+    </style>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="social-links" style="margin-bottom: 30px;">
+                <a href="https://www.instagram.com/foto_aleman_/" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/FotoAleman" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@fotoaleman" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/5217771923760" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <div
+                style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.75rem; letter-spacing: 0.05em; color: #666;">
+                <p>&copy; 2026 FOTO ALEMÁN. TODOS LOS DERECHOS RESERVADOS.</p>
+                <p style="margin-top: 10px; font-size: 0.65rem; opacity: 0.5;">
+                    Desarrollado por <a href="https://dochoar.github.io/" target="_blank"
+                        style="text-decoration: none; color: inherit; transition: opacity 0.3s;">David Ochoa</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script type="module" src="script.js"></script>
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
