@@ -21,6 +21,7 @@ export default defineConfig({
         infantiles: 'infantiles.html',
         politica: 'politica.html',
         pagos: 'pagos.html',
+        moda: 'moda.html',
       },
     },
   },

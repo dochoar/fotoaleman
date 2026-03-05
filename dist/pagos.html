@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagos y Transferencias · Foto Alemán</title>
+    <meta name="robots" content="noindex, nofollow"> <!-- Prevent search engines from indexing this hidden page -->
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+
+    <style>
+        .payment-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .clabe-box {
+            background-color: #f8f9fa;
+            border: 1px dashed #ccc;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .clabe-text {
+            font-family: 'Inter', monospace;
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: #333;
+        }
+
+        .copy-btn {
+            background-color: var(--color-primary, #333);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+        .copy-btn:hover {
+            opacity: 0.9;
+        }
+
+        .qr-section {
+            margin: 40px 0;
+        }
+
+        .qr-section img {
+            width: 180px;
+            height: 180px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        .whatsapp-contact a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: #25D366;
+            /* WhatsApp Green */
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .whatsapp-contact a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+        }
+
+        #copyNotification {
+            opacity: 0;
+            transition: opacity 0.3s;
+            color: #28a745;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .payment-container {
+                padding: 30px 20px;
+            }
+
+            .clabe-box {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+                padding: 15px;
+            }
+
+            .clabe-text {
+                font-size: 1.15rem;
+                word-break: break-all;
+                display: block;
+                width: 100%;
+            }
+
+            .copy-btn {
+                width: 100%;
+                padding: 12px;
+            }
+
+            .whatsapp-contact a {
+                font-size: 1rem;
+                padding: 12px 15px;
+                text-align: center;
+                display: flex;
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 1.8rem !important;
+            }
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/script-CDk_3NDs.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/script-DDF0fQWP.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/assets/Credencial%20Pepe%20Aleman-DFUOnad-.png" alt="Foto Alemán">
+                </a>
+            </div>
+            <!-- Navigation hidden or simplified for this page -->
+            <nav class="nav-links">
+                <a href="index.html">Volver a Inicio</a>
+            </nav>
+            <div class="header-actions">
+                <a href="contacto.html" class="subscribe-btn">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION: PAGOS -->
+    <section class="section-padding"
+        style="background-color: #f9f9f9; min-height: 80vh; display: flex; align-items: center;">
+        <div class="container">
+            <div class="payment-container fade-in">
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 2.2rem; margin-bottom: 10px;">Información
+                    de Pago</h2>
+                <p style="color: #666; margin-bottom: 20px;">Por favor, realiza tu depósito o transferencia utilizando
+                    los siguientes datos bancarios:</p>
+
+                <div class="payment-bank-info" style="text-align: left; margin: 30px 0;">
+                    <h3
+                        style="font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 10px; color: #333;">
+                        Banorte</h3>
+                    <p style="text-align: left; font-size: 0.9rem; margin-bottom: -20px; color: #555;">CLABE
+                        Interbancaria:</p>
+                    <div class="clabe-box">
+                        <span class="clabe-text" id="clabeBanorte">072540010778740358</span>
+                        <button class="copy-btn" onclick="copyClabe('clabeBanorte')">
+                            <i class="fas fa-copy"></i> Copiar
+                        </button>
+                    </div>
+
+                    <h3
+                        style="font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 10px; margin-top: 40px; color: #333;">
+                        Banamex</h3>
+                    <p style="text-align: left; font-size: 0.9rem; margin-bottom: -20px; color: #555;">CLABE
+                        Interbancaria:</p>
+                    <div class="clabe-box">
+                        <span class="clabe-text" id="clabeBanamex">002546901692966689</span>
+                        <button class="copy-btn" onclick="copyClabe('clabeBanamex')">
+                            <i class="fas fa-copy"></i> Copiar
+                        </button>
+                    </div>
+                </div>
+                <span id="copyNotification"
+                    style="display: block; opacity: 0; transition: opacity 0.3s; color: #28a745; font-size: 0.9rem; margin-top: -10px; margin-bottom: 30px;"><i
+                        class="fas fa-check-circle"></i> ¡CLABE copiada al portapapeles!</span>
+
+                <div class="qr-section">
+                    <p style="font-size: 0.95rem; color: #666; margin-bottom: 15px;">O escanea el siguiente código QR
+                        para acceder a esta página desde otro dispositivo:</p>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0AQMAAAAHA5RxAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABgUlEQVRYhc2Xu5HDMAxEccOAoUpQKepMn85YCktgyEAjeBeQfOO5cyqI48B8ZgBjwdVK5MtaFKvKLviM/KYOoviMmnKd9kGT6iH8WWQI5FmPzOqKZN1UV5zYwznqLKhvxolHcEltgo5/67+fu46poXV16eP6qe/t3OccfEp93MA/5v9+/l7TnnX9xxAewlH/kVEx6rf7uPCftDg+w6X6WKgq/YqruO4xnCOWtWDqJVcculoXxbH76UK/Spyy0TrY4jjqZKt+/YoTJnFcbLp5H9VOKE9Ax0C+sU62jn1btV11PorPru/OLmLY6GPF7mMQX7rnBLS02ya1U/cYjiu4UdhmlxPPQRu+GsdpnpajoChzFJrmOsbxLpMMBX2jP6RL3yhe0S3uWGc2P7fcG8R9nf7AOZdBn8hZPPWlP7zzsEgY97wn5u6WP8UcP457Phfzh1n8IRTPPbdsaknd5zCUi/nD1l3XJnFczvdN+IM/X66cGcPPOTd/qMwtjAryPP5lvQC7rbJ4RaQ3YwAAAABJRU5ErkJggg==" alt="Código QR de la página de pagos">
+                    <p style="margin-top: 10px; font-weight: 600;">Pagos</p>
+                </div>
+
+                <div style="border-top: 1px solid #eee; margin-top: 40px; padding-top: 30px;">
+                    <h3 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 15px;">Paso
+                        Final</h3>
+                    <p style="color: #666; line-height: 1.6;">
+                        Una vez que hayas realizado el pago, por favor <strong>envíanos tu comprobante</strong> para
+                        confirmar tu compra o apartado de sesión.
+                    </p>
+                    <div class="whatsapp-contact">
+                        <!-- Format correct WhatsApp URL: https://wa.me/number -->
+                        <a href="https://wa.me/5217771923760" target="_blank">
+                            <i class="fab fa-whatsapp" style="font-size: 1.4rem;"></i>
+                            Enviar Comprobante por WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="social-links" style="margin-bottom: 30px;">
+                <a href="https://www.instagram.com/foto_aleman_/" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/FotoAleman" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@fotoaleman" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/5217771923760" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <div
+                style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.75rem; letter-spacing: 0.05em; color: #666;">
+                <p>&copy; 2026 FOTO ALEMÁN. TODOS LOS DERECHOS RESERVADOS.</p>
+                <p style="margin-top: 10px; font-size: 0.65rem; opacity: 0.5;">
+                    Desarrollado por <a href="https://dochoar.github.io/" target="_blank"
+                        style="text-decoration: none; color: inherit; transition: opacity 0.3s;">David Ochoa</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Copy CLABE Function
+        function copyClabe(elementId) {
+            const clabeElement = document.getElementById(elementId);
+            const tempInput = document.createElement("input");
+            tempInput.value = clabeElement.innerText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+
+            const notification = document.getElementById("copyNotification");
+            notification.style.opacity = "1";
+            setTimeout(() => {
+                notification.style.opacity = "0";
+            }, 3000);
+        }
+    </script>
+</body>
+
+</html>

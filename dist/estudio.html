@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio · Foto Alemán</title>
+    <meta name="description"
+        content="Foto Alemán - Fotos de identificación, pasaporte y estudio profesional en Cuernavaca.">
+    <link rel="icon" type="image/png" href="icon.png">
+
+    <!-- Google Fonts: Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        /* Specific styles for the studio pricing table */
+        .col-size {
+            flex: 2;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .col-qty {
+            flex: 1;
+            text-align: center;
+        }
+
+        .col-p-price {
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .col-a-price {
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .col-d-price {
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .studio-row {
+            display: flex;
+            border-bottom: 1px solid #eee;
+            padding: 10px;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+
+        .studio-row:nth-child(even) {
+            background-color: #fafafa;
+            /* Slight stripe specifically for rows, might help readability */
+        }
+
+        .studio-header {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+        }
+
+        .category-header {
+            background-color: var(--color-gold);
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .studio-row {
+                flex-wrap: wrap;
+            }
+
+            .col-size {
+                flex: 100%;
+                margin-bottom: 5px;
+                border-bottom: 1px dashed #eee;
+                padding-bottom: 5px;
+            }
+
+            .col-qty,
+            .col-p-price,
+            .col-a-price,
+            .col-d-price {
+                flex: 50%;
+                text-align: left;
+                margin-bottom: 5px;
+            }
+
+            .col-qty::before {
+                content: "Cant: ";
+                font-weight: normal;
+                color: #666;
+            }
+
+            .col-p-price::before {
+                content: "Papel: ";
+                font-weight: normal;
+                color: #666;
+            }
+
+            .col-a-price::before {
+                content: "Adhesivo: ";
+                font-weight: normal;
+                color: #666;
+            }
+
+            .col-d-price::before {
+                content: "Digital: ";
+                font-weight: normal;
+                color: #666;
+            }
+
+            .studio-header {
+                display: none;
+            }
+
+            /* Hide header on mobile, use labels */
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/script-CDk_3NDs.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/script-DDF0fQWP.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/assets/Credencial%20Pepe%20Aleman-DFUOnad-.png" alt="Foto Alemán">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html#catálogo">Catálogo</a>
+                <a href="graduaciones.html">Graduaciones</a>
+                <a href="bodas.html">Bodas</a>
+                <a href="estolas.html">Estolas</a>
+                <a href="estudio.html">Estudio</a>
+                <a href="index.html#trayectoria">Trayectoria</a>
+                <a href="index.html#historias">Historias</a>
+            </nav>
+            <div class="header-actions">
+                <a href="contacto.html" class="subscribe-btn">Contacto</a>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION: STUDIO -->
+    <section class="section-padding" id="estudio">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Fotos de Estudio</h2>
+                <p>Calidad profesional para tus documentos oficiales</p>
+                <div
+                    style="margin-top: 30px; border-radius: 0; overflow: hidden; max-width: 900px; margin-left: auto; margin-right: auto;">
+                    <img src="/assets/fotos-identificacion-B7UyidM0.jpg" alt="Tamaños de Fotos de Identificación"
+                        style="width: 100%; height: auto; display: block;">
+                </div>
+            </div>
+
+            <div class="pricing-section fade-in">
+
+                <h3 class="subsection-title"
+                    style="margin-top: 20px; margin-bottom: 20px; color: var(--color-primary);">📋 Precios al Público
+                </h3>
+                <p style="margin-bottom: 20px; font-size: 0.9rem; color: #666;">* Las fotografías incluyen retoque
+                    digital.<br>* Precios incluyen IVA.<br>* El archivo digital no incluye USB.<br>* El estudio te
+                    ofrece todas las prendas necesarias.</p>
+
+                <div class="pricing-table">
+                    <!-- Table Header -->
+                    <div class="studio-row studio-header">
+                        <div class="col-size">Tamaño</div>
+                        <div class="col-qty">Cantidad</div>
+                        <div class="col-p-price">Papel</div>
+                        <div class="col-a-price">Adhesivo</div>
+                        <div class="col-d-price">Digital</div>
+                    </div>
+
+                    <!-- Rows -->
+                    <!-- Infantil -->
+                    <div class="studio-row">
+                        <div class="col-size">Infantil</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$55.00</div>
+                        <div class="col-a-price">$65.00</div>
+                        <div class="col-d-price">$120.00</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Infantil</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$85.00</div>
+                        <div class="col-a-price">$95.00</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Cartilla -->
+                    <div class="studio-row">
+                        <div class="col-size">Cartilla</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$75.00</div>
+                        <div class="col-a-price">$90.00</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Cartilla</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$100.00</div>
+                        <div class="col-a-price">$115.00</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Credencial -->
+                    <div class="studio-row">
+                        <div class="col-size">Credencial</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$50.00</div>
+                        <div class="col-a-price">$65.00</div>
+                        <div class="col-d-price">$120.00</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Credencial</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$80.00</div>
+                        <div class="col-a-price">$95.00</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Filiación -->
+                    <div class="studio-row">
+                        <div class="col-size">Filiación</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$70.00</div>
+                        <div class="col-a-price">$85.00</div>
+                        <div class="col-d-price">$160.00</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Filiación</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$85.00</div>
+                        <div class="col-a-price">$100.00</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Pasaporte MX -->
+                    <div class="studio-row">
+                        <div class="col-size">Pasaporte MX</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$65.00</div>
+                        <div class="col-a-price">N/A</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Pasaporte MX</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$80.00</div>
+                        <div class="col-a-price">N/A</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Pasaporte USA -->
+                    <div class="studio-row">
+                        <div class="col-size">Pasaporte USA</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$85.00</div>
+                        <div class="col-a-price">N/A</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Pasaporte USA</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$105.00</div>
+                        <div class="col-a-price">N/A</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Pasaporte Europeo -->
+                    <div class="studio-row">
+                        <div class="col-size">Pasaporte Europeo</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$95.00</div>
+                        <div class="col-a-price">N/A</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Pasaporte Europeo</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$155.00</div>
+                        <div class="col-a-price">N/A</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Mignon -->
+                    <div class="studio-row">
+                        <div class="col-size">Mignon</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$80.00</div>
+                        <div class="col-a-price">$110.00</div>
+                        <div class="col-d-price">$140.00</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Mignon</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$105.00</div>
+                        <div class="col-a-price">$135.00</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Diploma -->
+                    <div class="studio-row">
+                        <div class="col-size">Diploma</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$90.00</div>
+                        <div class="col-a-price">$120.00</div>
+                        <div class="col-d-price">$160.00</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Diploma</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$150.00</div>
+                        <div class="col-a-price">$165.00</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+
+                    <!-- Título -->
+                    <div class="studio-row">
+                        <div class="col-size">Título</div>
+                        <div class="col-qty">6 piezas</div>
+                        <div class="col-p-price">$260.00</div>
+                        <div class="col-a-price">$300.00</div>
+                        <div class="col-d-price">$275.00</div>
+                    </div>
+                    <div class="studio-row">
+                        <div class="col-size" style="opacity: 0;">Título</div>
+                        <div class="col-qty">12 piezas</div>
+                        <div class="col-p-price">$390.00</div>
+                        <div class="col-a-price">$410.00</div>
+                        <div class="col-d-price">N/A</div>
+                    </div>
+                </div>
+
+                <!-- Reproducciones -->
+                <h3 class="subsection-title"
+                    style="margin-top: 60px; margin-bottom: 20px; color: var(--color-primary);">🖼 Reproducciones</h3>
+
+                <div class="pricing-table">
+                    <!-- Table Header -->
+                    <div class="studio-row studio-header">
+                        <div class="col-size">Tamaño</div>
+                        <div class="col-qty">Piezas</div>
+                        <div class="col-p-price">Ampliación</div>
+                        <div class="col-a-price" style="flex: 1.5;">Con Acabado Especial</div>
+                    </div>
+
+                    <!-- Postal -->
+                    <div class="studio-row">
+                        <div class="col-size">Postal</div>
+                        <div class="col-qty">1</div>
+                        <div class="col-p-price">$40.00</div>
+                        <div class="col-a-price" style="flex: 1.5;">$75.00</div>
+                    </div>
+
+                    <!-- Media Carta -->
+                    <div class="studio-row">
+                        <div class="col-size">Media Carta</div>
+                        <div class="col-qty">1</div>
+                        <div class="col-p-price">$95.00</div>
+                        <div class="col-a-price" style="flex: 1.5;">$160.00</div>
+                    </div>
+
+                    <!-- Carta -->
+                    <div class="studio-row">
+                        <div class="col-size">Carta</div>
+                        <div class="col-qty">1</div>
+                        <div class="col-p-price">$145.00</div>
+                        <div class="col-a-price" style="flex: 1.5;">$215.00</div>
+                    </div>
+
+                    <!-- 8x12 -->
+                    <div class="studio-row">
+                        <div class="col-size">8 x 12"</div>
+                        <div class="col-qty">1</div>
+                        <div class="col-p-price">$155.00</div>
+                        <div class="col-a-price" style="flex: 1.5;">$225.00</div>
+                    </div>
+
+                    <!-- 11x14 -->
+                    <div class="studio-row">
+                        <div class="col-size">11 x 14"</div>
+                        <div class="col-qty">1</div>
+                        <div class="col-p-price">$265.00</div>
+                        <div class="col-a-price" style="flex: 1.5;">$320.00</div>
+                    </div>
+
+                    <!-- 16x20 -->
+                    <div class="studio-row">
+                        <div class="col-size">16 x 20"</div>
+                        <div class="col-qty">1</div>
+                        <div class="col-p-price">$650.00</div>
+                        <div class="col-a-price" style="flex: 1.5;">$750.00</div>
+                    </div>
+
+                    <!-- 20x24 -->
+                    <div class="studio-row">
+                        <div class="col-size">20 x 24"</div>
+                        <div class="col-qty">1</div>
+                        <div class="col-p-price">$860.00</div>
+                        <div class="col-a-price" style="flex: 1.5;">$980.00</div>
+                    </div>
+
+                    <!-- 27x39 -->
+                    <div class="studio-row">
+                        <div class="col-size">27 x 39"</div>
+                        <div class="col-qty">1</div>
+                        <div class="col-p-price">$1,000.00</div>
+                        <div class="col-a-price" style="flex: 1.5;">$1,100.00</div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 40px; text-align: center;">
+                <a href="https://wa.me/5217771923760" target="_blank" class="btn btn-primary">Agendar Cita</a>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="social-links" style="margin-bottom: 30px;">
+                <a href="https://www.instagram.com/foto_aleman_/" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/FotoAleman" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@fotoaleman" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/5217771923760" target="_blank"
+                    style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+
+            <div
+                style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.75rem; letter-spacing: 0.05em; color: #666;">
+                <p>&copy; 2026 FOTO ALEMÁN. TODOS LOS DERECHOS RESERVADOS.</p>
+                <p style="margin-top: 10px; font-size: 0.65rem; opacity: 0.5;">
+                    Desarrollado por <a href="https://dochoar.github.io/" target="_blank"
+                        style="text-decoration: none; color: inherit; transition: opacity 0.3s;">David Ochoa</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
