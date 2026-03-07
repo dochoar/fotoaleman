@@ -59,18 +59,28 @@
     </header>
 
 
-    <!-- Quinceaneras Hero/Intro -->
-    <div class="section-header fade-in" style="margin-top: 80px;">
-        <h2>✨ Sesiones de Quinceañeras</h2>
-        <p>Capturando la ilusión y el brillo de una etapa inolvidable</p>
-    </div>
-
-    <!-- Quinceaneras Gallery -->
-    <div class="wedding-gallery">
-        <div class="gallery-item fade-in">
-            <img src="/assets/nina-BOgzjlfP.jpg" alt="Sesión de Quinceañera">
+    <!-- SECTION: GRID INCORPORATED -->
+    <section class="section-padding"
+        style="background-color: var(--color-white); padding-bottom: 20px; margin-top: 80px;">
+        <div class="container" style="text-align: center;">
+            <div class="section-header fade-in">
+                <h2>Sesiones de Quinceañeras</h2>
+                <p>Capturando la ilusión y el brillo de tus XV años.</p>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="section-padding" style="background-color: #f9f9f9; padding-top: 20px;">
+        <div class="container">
+            <div class="quince-gallery">
+                <div class="gallery-item fade-in">
+                    <img src="/assets/nina-BOgzjlfP.jpg" alt="Sesión de Quinceañera" class="hover-zoom">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- FOOTER -->
     <footer>
@@ -112,44 +122,34 @@
     </script>
 
     <style>
-        .wedding-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 0 40px 80px;
-            max-width: 1400px;
-            margin: 50px auto 0;
+        .quince-gallery {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
 
-        .wedding-gallery .gallery-item {
-            position: relative;
+        .gallery-item {
             overflow: hidden;
-            border-radius: 8px;
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-            cursor: pointer;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            position: relative;
+            background: #fff;
         }
 
-        .wedding-gallery .gallery-item img {
+        .gallery-item img {
             width: 100%;
             height: auto;
             display: block;
-            transition: transform 0.8s ease;
+            transition: transform 0.5s ease;
         }
 
-        .wedding-gallery .gallery-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        .gallery-item:hover img.hover-zoom {
+            transform: scale(1.02);
         }
 
-        .wedding-gallery .gallery-item:hover img {
-            transform: scale(1.05);
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 600px) {
-            .wedding-gallery {
-                grid-template-columns: 1fr;
-                padding: 0 20px 80px;
+        @media (max-width: 768px) {
+            .quince-gallery {
+                padding: 10px;
             }
         }
     </style>
