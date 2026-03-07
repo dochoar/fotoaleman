@@ -58,15 +58,25 @@
     </header>
 
 
-    <!-- Quinceaneras Hero/Intro -->
-    <div class="section-header fade-in" style="margin-top: 80px;">
-        <h2>✨ Sesiones de Quinceañeras</h2>
-        <p>Capturando la ilusión y el brillo de una etapa inolvidable</p>
+    <!-- Quinceaneras Hero Cover -->
+    <div class="quince-hero fade-in">
+        <img src="Fotos Infantiles/nina.jpg" alt="Portada Sesión de Quinceañera">
+        <div class="quince-hero-overlay">
+            <div class="quince-hero-text">
+                <span
+                    style="color: var(--color-gold); text-transform: uppercase; letter-spacing: 3px; font-size: 0.8rem; font-weight: 600;">Foto
+                    Alemán</span>
+                <h1 style="color: #fff; font-family: 'Playfair Display', serif; font-size: 3rem; margin: 15px 0 10px;">
+                    Quinceañeras</h1>
+                <p style="color: rgba(255,255,255,0.85); font-size: 1.1rem;">Capturando la ilusión y el brillo de una
+                    etapa inolvidable</p>
+            </div>
+        </div>
     </div>
 
     <!-- Quinceaneras Gallery -->
     <div class="wedding-gallery">
-        <div class="gallery-item fade-in">
+        <div class="gallery-item quince-cover-item fade-in">
             <img src="Fotos Infantiles/nina.jpg" alt="Sesión de Quinceañera">
         </div>
     </div>
@@ -112,13 +122,58 @@
     </script>
 
     <style>
+        /* Hero Cover */
+        .quince-hero {
+            position: relative;
+            width: 100%;
+            height: 80vh;
+            min-height: 500px;
+            overflow: hidden;
+            margin-top: 70px;
+        }
+
+        .quince-hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
+            display: block;
+        }
+
+        .quince-hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.1) 60%);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding-bottom: 60px;
+        }
+
+        .quince-hero-text {
+            text-align: center;
+        }
+
+        /* Gallery */
         .wedding-gallery {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 20px;
-            padding: 0 40px 80px;
+            padding: 60px 40px 80px;
             max-width: 1400px;
-            margin: 50px auto 0;
+            margin: 0 auto;
+        }
+
+        .quince-cover-item {
+            grid-column: 1 / -1;
+            max-height: 700px;
+        }
+
+        .quince-cover-item img {
+            width: 100%;
+            height: 700px;
+            object-fit: cover;
+            object-position: center top;
         }
 
         .wedding-gallery .gallery-item {
@@ -145,11 +200,27 @@
             transform: scale(1.05);
         }
 
-        /* Responsive adjustments */
         @media (max-width: 600px) {
+            .quince-hero {
+                height: 60vh;
+                margin-top: 60px;
+            }
+
+            .quince-hero-text h1 {
+                font-size: 2rem;
+            }
+
             .wedding-gallery {
                 grid-template-columns: 1fr;
-                padding: 0 20px 80px;
+                padding: 40px 20px 80px;
+            }
+
+            .quince-cover-item {
+                max-height: 400px;
+            }
+
+            .quince-cover-item img {
+                height: 400px;
             }
         }
     </style>
