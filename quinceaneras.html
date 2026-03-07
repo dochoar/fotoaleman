@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sesiones Infantiles · Foto Alemán</title>
-    <meta name="description" content="Foto Alemán - Fotografía de sesiones infantiles.">
+    <title>Quinceañeras · Foto Alemán</title>
+    <meta name="description"
+        content="Foto Alemán - Fotografía profesional para sesiones de Quinceañeras en Cuernavaca.">
     <link rel="icon" type="image/png" href="icon.png">
 
     <!-- Google Fonts: Playfair Display & Inter -->
@@ -56,78 +57,19 @@
         </div>
     </header>
 
-    <!-- SECTION: GRID INCORPORATED -->
-    <section class="section-padding" style="background-color: var(--color-white); padding-bottom: 20px;">
-        <div class="container" style="text-align: center;">
-            <div class="section-header fade-in">
-                <h2>Sesiones Infantiles</h2>
-                <p>Capturando la ternura, el amor maternal y la magia de crecer.</p>
-            </div>
+
+    <!-- Quinceaneras Hero/Intro -->
+    <div class="section-header fade-in" style="margin-top: 80px;">
+        <h2>✨ Sesiones de Quinceañeras</h2>
+        <p>Capturando la ilusión y el brillo de una etapa inolvidable</p>
+    </div>
+
+    <!-- Quinceaneras Gallery -->
+    <div class="wedding-gallery">
+        <div class="gallery-item fade-in">
+            <img src="Fotos Infantiles/nina.jpg" alt="Sesión de Quinceañera">
         </div>
-    </section>
-
-    <!-- GALLERY SECTION -->
-    <section class="section-padding" style="background-color: #f9f9f9; padding-top: 20px;">
-        <div class="container">
-            <div class="infantiles-gallery">
-                <!-- Columna Izquierda -->
-                <div class="gallery-column">
-                    <div class="gallery-item fade-in">
-                        <img src="Fotos Infantiles/embarazada.jpg" alt="Maternidad" class="hover-zoom">
-                    </div>
-                </div>
-                <!-- Columna Derecha -->
-                <div class="gallery-column">
-                    <div class="gallery-item fade-in">
-                        <img src="Fotos Infantiles/familia.jpg" alt="Retrato Familiar" class="hover-zoom">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        .infantiles-gallery {
-            display: flex;
-            gap: 20px;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .gallery-column {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .gallery-item {
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            transition: transform 0.5s ease;
-            display: block;
-        }
-
-        .gallery-item:hover img.hover-zoom {
-            transform: scale(1.05);
-        }
-
-        @media (max-width: 768px) {
-            .infantiles-gallery {
-                flex-direction: column;
-            }
-
-            .gallery-item {
-                margin-bottom: 20px;
-            }
-        }
-    </style>
+    </div>
 
     <!-- FOOTER -->
     <footer>
@@ -142,6 +84,7 @@
                 <a href="https://wa.me/5217771923760" target="_blank"
                     style="margin: 0 25px; font-size: 3rem; color: #fff;"><i class="fab fa-whatsapp"></i></a>
             </div>
+
 
             <div
                 style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.75rem; letter-spacing: 0.05em; color: #666;">
@@ -167,6 +110,49 @@
             }
         });
     </script>
+
+    <style>
+        .wedding-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 40px 80px;
+            max-width: 1400px;
+            margin: 50px auto 0;
+        }
+
+        .wedding-gallery .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+        }
+
+        .wedding-gallery .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.8s ease;
+        }
+
+        .wedding-gallery .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .wedding-gallery .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .wedding-gallery {
+                grid-template-columns: 1fr;
+                padding: 0 20px 80px;
+            }
+        }
+    </style>
 </body>
 
 </html>

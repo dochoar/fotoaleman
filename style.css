@@ -1150,6 +1150,17 @@ footer p {
     filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.5));
 }
 
+/* Utility to hide items on desktop but show in mobile menu */
+.mobile-only {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .mobile-only {
+        display: block !important;
+    }
+}
+
 @media (max-width: 768px) {
     .video-card {
         width: 220px;
