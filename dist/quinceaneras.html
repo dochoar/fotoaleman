@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estolas · Foto Alemán</title>
-    <meta name="description" content="Foto Alemán - Renta de estolas, birretes y togas para graduación en Cuernavaca.">
+    <title>Quinceañeras · Foto Alemán</title>
+    <meta name="description"
+        content="Foto Alemán - Fotografía profesional para sesiones de Quinceañeras en Cuernavaca.">
     <link rel="icon" type="image/png" href="icon.png">
 
     <!-- Google Fonts: Playfair Display & Inter -->
@@ -57,73 +58,18 @@
         </div>
     </header>
 
-    <!-- SECTION 3: ESTOLAS -->
-    <section class="section-padding" id="estolas">
-        <div class="container">
-            <div class="section-header fade-in">
-                <h2>Estolas, Birretes y Togas</h2>
-                <p style="margin-top: 15px;">Renta por evento: $250</p>
-            </div>
 
-            <div class="grid-cards">
-                <div class="card with-img">
-                    <img src="/assets/Estola%201_9929-C65Heswh.jpg" alt="Estola Verde Esmeralda" class="card-img">
-                    <div class="card-content">
-                        <h3>Estola Verde Esmeralda</h3>
-                        <p>Verde profundo · Acabado mate</p>
-                        <div class="card-price">$250</div>
-                    </div>
-                </div>
-                <div class="card with-img">
-                    <img src="/assets/Estola%202_9934-BjWTs0Vc.jpg" alt="Estola Roja Pasión" class="card-img">
-                    <div class="card-content">
-                        <h3>Estola Roja Pasión</h3>
-                        <p>Rojo brillante · Corte en V</p>
-                        <div class="card-price">$250</div>
-                    </div>
-                </div>
-                <div class="card with-img">
-                    <img src="/assets/Estola%203_9936-COp71pEk.jpg" alt="Estola Dorada Clásica" class="card-img">
-                    <div class="card-content">
-                        <h3>Estola Dorada Clásica</h3>
-                        <p>Seda dorada · Elegancia absoluta</p>
-                        <div class="card-price">$250</div>
-                    </div>
-                </div>
-                <div class="card with-img">
-                    <img src="/assets/Estola%204_9942-bd4KP__v.jpg" alt="Estola Escudo México" class="card-img">
-                    <div class="card-content">
-                        <h3>Estola Escudo México</h3>
-                        <p>Escudo nacional bordado</p>
-                        <div class="card-price">$250</div>
-                    </div>
-                </div>
-                <div class="card with-img">
-                    <img src="/assets/Estola%206_9955-B3wiaAOO.jpg" alt="Estola Blanca Nupcial" class="card-img">
-                    <div class="card-content">
-                        <h3>Estola Blanca Nupcial</h3>
-                        <p>Perlada</p>
-                        <div class="card-price">$250</div>
-                    </div>
-                </div>
-                <div class="card with-img">
-                    <img src="/assets/Estola%207_9958-Bsk0X311.jpg" alt="Estola Azul Rey" class="card-img">
-                    <div class="card-content">
-                        <h3>Estola Azul Rey</h3>
-                        <p>Azul eléctrico profundo</p>
-                        <div class="card-price">$250</div>
-                    </div>
-                </div>
+    <!-- Quinceaneras Hero/Intro -->
+    <div class="section-header fade-in" style="margin-top: 80px;">
+        <h2>✨ Sesiones de Quinceañeras</h2>
+        <p>Capturando la ilusión y el brillo de una etapa inolvidable</p>
+    </div>
 
-            </div>
+    <!-- Quinceaneras Gallery -->
+    <div class="wedding-gallery">
+        <div class="gallery-item fade-in">
+            <img src="/assets/nina-BOgzjlfP.jpg" alt="Sesión de Quinceañera">
         </div>
-    </section>
-
-    <!-- LIGHTBOX MODAL -->
-    <div id="image-modal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
     </div>
 
     <!-- FOOTER -->
@@ -164,6 +110,49 @@
             }
         });
     </script>
+
+    <style>
+        .wedding-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0 40px 80px;
+            max-width: 1400px;
+            margin: 50px auto 0;
+        }
+
+        .wedding-gallery .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+        }
+
+        .wedding-gallery .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.8s ease;
+        }
+
+        .wedding-gallery .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .wedding-gallery .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .wedding-gallery {
+                grid-template-columns: 1fr;
+                padding: 0 20px 80px;
+            }
+        }
+    </style>
 </body>
 
 </html>

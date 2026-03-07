@@ -22,6 +22,7 @@ export default defineConfig({
         politica: 'politica.html',
         pagos: 'pagos.html',
         moda: 'moda.html',
+        quinceaneras: 'quinceaneras.html',
       },
     },
   },
