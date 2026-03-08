@@ -249,6 +249,39 @@ header.scrolled .logo img {
     gap: 20px;
 }
 
+/* Always-visible key section links in the banner */
+.header-quicklinks {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-right: 24px;
+}
+
+.header-quicklinks a {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.82);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    white-space: nowrap;
+}
+
+.header-quicklinks a:hover {
+    color: var(--color-gold);
+}
+
+/* On scrolled header, darken link text */
+header.scrolled .header-quicklinks a {
+    color: rgba(20, 20, 20, 0.75);
+}
+
+header.scrolled .header-quicklinks a:hover {
+    color: var(--color-gold);
+}
+
+
 .subscribe-btn {
     background-color: transparent;
     border: 1px solid var(--color-gold);
@@ -1234,6 +1267,10 @@ footer p {
 
     .nav-container {
         padding: 0 15px;
+    }
+
+    .header-quicklinks {
+        display: none;
     }
 
 
