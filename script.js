@@ -177,6 +177,40 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
         // ... existing code ...
+
+        // --- AUTOPLAY ---
+        let autoplayInterval = null;
+
+        const goToNextSlide = () => {
+            const currentSlide = track.querySelector('.current-slide');
+            const currentDot = dotsNav.querySelector('.current-slide');
+            const currentIndex = slides.findIndex(slide => slide === currentSlide);
+            const isLastSlide = currentIndex === slides.length - 1;
+
+            const nextSlide = isLastSlide ? slides[0] : currentSlide.nextElementSibling;
+            const nextDot = isLastSlide ? dots[0] : currentDot.nextElementSibling;
+            const nextIndex = isLastSlide ? 0 : currentIndex + 1;
+
+            moveToSlide(track, currentSlide, nextSlide);
+            updateDots(currentDot, nextDot);
+            hideShowArrows(slides, prevButton, nextButton, nextIndex);
+        };
+
+        const startAutoplay = () => {
+            autoplayInterval = setInterval(goToNextSlide, 4000);
+        };
+
+        const resetAutoplay = () => {
+            clearInterval(autoplayInterval);
+            startAutoplay();
+        };
+
+        // Reset timer on manual interaction
+        nextButton.addEventListener('click', resetAutoplay);
+        prevButton.addEventListener('click', resetAutoplay);
+        dotsNav.addEventListener('click', resetAutoplay);
+
+        startAutoplay();
     }
 
     // Mobile Menu Toggle
