@@ -89,15 +89,26 @@
                 <div class="gallery-item fade-in">
                     <img src="Fotos Politicas/media__1772046368508.jpg" alt="Gobernador">
                 </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Politicas/media__1772046368568.jpg" alt="Gobernador">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Politicas/media__1772046368610.jpg" alt="Gobernador">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Politicas/media__1772047031003.jpg" alt="Gobernador">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Politicas/exgobenmoto.jpeg" alt="Gobernador en Moto">
+                </div>
             </div>
         </div>
     </section>
 
     <style>
         .editorial-gallery {
-            column-count: 3; column- 
-             
-             
+            column-count: 3;
+            column-gap: 20px;
         }
 
         .gallery-item {
@@ -118,11 +129,11 @@
         .gallery-item img {
             width: 100%;
             height: auto;
-            object-fit: cover;
+            object-fit: contain; /* Ajuste para evitar recortes globales que el usuario pidió hoy temprano */
             display: block;
         }
 
-            @media (max-width: 900px) {
+        @media (max-width: 900px) {
             .editorial-gallery {
                 column-count: 2;
             }
@@ -131,27 +142,6 @@
         @media (max-width: 600px) {
             .editorial-gallery {
                 column-count: 1;
-            }
-        }
-
-             
-             
-        }
-
-         
-                @media (max-width: 900px) {
-            .editorial-gallery {
-                column-count: 2;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .editorial-gallery {
-                column-count: 1;
-            }
-        }
-
-                 
             }
         }
     </style>

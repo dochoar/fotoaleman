@@ -16,48 +16,81 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Lightbox implementation
-var modal = document.getElementById("image-modal");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
+// --- DYNAMIC GLOBAL LIGHTBOX IMPLEMENTATION ---
+document.addEventListener("DOMContentLoaded", function () {
+    // 1. Create modal HTML dynamically
+    const modalHTML = `
+        <div id="global-image-modal" class="custom-lightbox-modal">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" src="" alt="">
+            <div id="lightbox-caption"></div>
+        </div>
+    `;
+    document.body.insertAdjacentHTML('beforeend', modalHTML);
 
-// Get all images with class card-img
-var images = document.querySelectorAll(".card-img");
+    const modal = document.getElementById("global-image-modal");
+    const modalImg = document.getElementById("lightbox-img");
+    const captionText = document.getElementById("lightbox-caption");
+    const closeBtn = document.querySelector(".lightbox-close");
 
-if (images.length > 0) {
-    images.forEach(function (img) {
-        // Skip images that are inside links to allow navigation
-        if (img.closest('a')) return;
+    // 2. Select all images that should open in the lightbox
+    // We target all images except known icons, logos, or QRs.
+    const galleryImages = document.querySelectorAll('img:not([alt*="Logo"]):not([src*="logo"]):not([src*="qr"]):not(.no-lightbox)');
 
-        img.onclick = function () {
-            if (modal) {
-                modal.style.display = "block";
+    if (galleryImages.length > 0) {
+        galleryImages.forEach(function (img) {
+            // Add cursor pointer so user knows it's clickable
+            img.style.cursor = "zoom-in";
+
+            img.addEventListener("click", function (e) {
+                // Si la imagen está dentro de un link, prevenir que el navegador cambie de página
+                const isInsideAnchor = img.closest('a');
+                if (isInsideAnchor) {
+                    e.preventDefault();
+                }
+
+                modal.style.display = "flex";
+                // Add a small delay for opacity transition
+                setTimeout(() => {
+                    modal.classList.add("show");
+                }, 10);
+                
                 modalImg.src = this.src;
-                captionText.innerHTML = this.alt;
+                captionText.innerHTML = this.alt || "";
+                document.body.style.overflow = "hidden"; // Prevent scrolling in background
+            });
+        });
+    }
+
+    // 3. Close modal logic
+    const closeModal = () => {
+        modal.classList.remove("show");
+        setTimeout(() => {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto"; // Restore scrolling
+        }, 300); // Wait for transition
+    };
+
+    if (closeBtn) {
+        closeBtn.addEventListener("click", closeModal);
+    }
+
+    if (modal) {
+        modal.addEventListener("click", function (event) {
+            // Close if clicking anywhere outside the image itself
+            if (event.target !== modalImg) {
+                closeModal();
             }
+        });
+    }
+    
+    // Allow closing with Escape key
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Escape" && modal.style.display === "flex") {
+            closeModal();
         }
     });
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-if (span) {
-    span.onclick = function () {
-        if (modal) modal.style.display = "none";
-    }
-}
-
-// Close on clicking outside the image
-if (modal) {
-    modal.onclick = function (event) {
-        if (event.target === modal) {
-            modal.style.display = "none";
-        }
-    }
-}
-
+});
 
 // Fade-in animation on scroll using Intersection Observer
 document.addEventListener("DOMContentLoaded", function () {

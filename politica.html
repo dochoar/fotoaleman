@@ -116,11 +116,8 @@
                 <div class="gallery-item fade-in">
                     <img src="Fotos Politicas/media__1772045556254.jpg" alt="Fotografía Política">
                 </div>
+
                 <div class="gallery-item large-item fade-in">
-                    <img src="Fotos Politicas/7fb1ab16-c615-4863-bcf6-b0cb77768b9b_0.jpg"
-                        alt="Campaña Política Principal">
-                </div>
-                <div class="gallery-item fade-in">
                     <img src="Fotos Politicas/b324dabf-6672-4f2c-885a-35423037d070_0.jpg" alt="Retrato Político">
                 </div>
                 <div class="gallery-item fade-in">
@@ -135,7 +132,7 @@
                 </div>
 
 
-                <div class="gallery-item fade-in">
+                <div class="gallery-item large-item fade-in">
                     <img src="Fotos Politicas/d551fc01-8aef-4ffa-a050-6b1b9f22348e_0.jpg" alt="Proyección Política">
                 </div>
 
@@ -158,9 +155,7 @@
                 </div>
 
 
-                <div class="gallery-item fade-in">
-                    <img src="Fotos Politicas/db282eeb-3310-475c-9a3e-0d987fe117cb_0.jpg" alt="Campaña Visual">
-                </div>
+
                 <div class="gallery-item fade-in">
                     <img src="Fotos Politicas/faba127c-f45f-42ca-8beb-1f420e29f735_0.jpg" alt="Estrategia Visual">
                 </div>
@@ -187,14 +182,6 @@
                 </div>
 
                 <div class="gallery-item fade-in">
-                    <img src="Fotos Politicas/media__1772046368568.jpg" alt="Foto Política Adicional">
-                </div>
-
-                <div class="gallery-item fade-in">
-                    <img src="Fotos Politicas/media__1772046368610.jpg" alt="Foto Política Adicional">
-                </div>
-
-                <div class="gallery-item fade-in">
                     <img src="Fotos Politicas/media__1772046389545.jpg" alt="Foto Política Adicional">
                 </div>
 
@@ -212,13 +199,13 @@
                     <img src="Fotos Politicas/media__1772047096218.jpg" alt="Foto Política Adicional Final">
                 </div>
                 <div class="gallery-item fade-in">
-                    <img src="Fotos Politicas/media__1772047031003.jpg" alt="Foto Política Adicional Final">
-                </div>
-                <div class="gallery-item fade-in">
                     <img src="Fotos Politicas/media__1772050245834.jpg" alt="Foto Política Chef">
                 </div>
                 <div class="gallery-item fade-in">
                     <img src="Fotos Politicas/Mujer_Politico_Nueva.png" alt="Foto Política Mujer">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Politicas/media__1772046333685.jpg" alt="Foto Política">
                 </div>
 
 
@@ -250,8 +237,21 @@
         .gallery-item img {
             width: 100%;
             height: auto;
-            object-fit: cover;
+            object-fit: contain; /* Ajuste para evitar recortes globales que el usuario pidió hoy temprano */
             display: block;
+        }
+
+        /* Hacer que las panorámicas destaquen abarcando todo el ancho */
+        .gallery-item.large-item {
+            column-span: all; /* Abarcar las 3 columnas */
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        
+        .gallery-item.large-item img {
+            width: 100%;
+            max-height: 80vh;
+            object-fit: cover; /* Las panorámicas se ven mejor en cover cuando abarcan toda la pantalla */
         }
 
         @media (max-width: 900px) {
