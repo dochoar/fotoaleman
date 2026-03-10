@@ -209,12 +209,19 @@
             column-span: all; /* Abarcar las 3 columnas */
             width: 100%;
             margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
         }
         
         .gallery-item.large-item img {
             width: 100%;
-            max-height: 80vh;
-            object-fit: cover; /* Las panorámicas se ven mejor en cover cuando abarcan toda la pantalla */
+            height: auto; /* Dejar que la imagen dicte su altura proporcional para no recortar */
+            object-fit: contain;
+            display: block;
+        }
+
+        .gallery-item.large-item:hover {
+            transform: scale(1.01);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
         }
 
         @media (max-width: 900px) {

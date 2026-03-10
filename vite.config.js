@@ -19,6 +19,7 @@ export default defineConfig({
         producto: 'producto.html',
         infantiles: 'infantiles.html',
         politica: 'politica.html',
+        gobernadores: 'gobernadores.html',
         pagos: 'pagos.html',
         moda: 'moda.html',
         quinceaneras: 'quinceaneras.html',

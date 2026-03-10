@@ -37,8 +37,17 @@ function initLightbox() {
 
     // 2. Event Delegation: Listen for clicks on the entire document
     document.addEventListener("click", function (e) {
-        // Find if an image or a link containing an image was clicked
-        const img = e.target.closest('img');
+        // Find if an image or its gallery container was clicked
+        let img = e.target.closest('img');
+        
+        // If clicking on the gallery item container (not directly on the img pixel),
+        // find the first image inside it
+        if (!img) {
+            const galleryItem = e.target.closest('.gallery-item');
+            if (galleryItem) {
+                img = galleryItem.querySelector('img');
+            }
+        }
         
         if (!img) return;
 
@@ -47,12 +56,13 @@ function initLightbox() {
             img.alt.toLowerCase().includes("logo") || 
             img.src.toLowerCase().includes("logo") || 
             img.src.toLowerCase().includes("qr") || 
-            img.classList.contains("no-lightbox");
+            img.classList.contains("no-lightbox") ||
+            img.closest('.logo') ||
+            img.closest('.card') || // Excluir banners de categorías de la página de inicio
+            img.closest('.card-img-container');
 
         if (isExcluded) return;
 
-        // If we reach here, it's a valid gallery image
-        
         // Prevent default if it's inside an anchor (priority to lightbox)
         const isInsideAnchor = img.closest('a');
         if (isInsideAnchor) {
@@ -65,7 +75,7 @@ function initLightbox() {
         }, 10);
         
         modalImg.src = img.src;
-        captionText.innerHTML = img.alt || "";
+        captionText.innerHTML = ""; // No mostrar nombres ni descripciones
         document.body.style.overflow = "hidden";
     });
 
@@ -96,9 +106,6 @@ function initLightbox() {
         }
     });
 }
-
-// Ensure initLightbox runs whether document is still loading or already loaded
-initLightbox();
 
 // Fade-in animation on scroll using Intersection Observer
 function initAnimations() {
@@ -353,4 +360,5 @@ function initAnimations() {
 }
 
 // Ensure everything runs on load
+initLightbox();
 initAnimations();
