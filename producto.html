@@ -115,15 +115,20 @@
                 <div class="gallery-item fade-in">
                     <img src="producto-dinosaurio.jpg" alt="Maceta Dinosaurio">
                 </div>
-                <!-- New Product Photos -->
-                <div class="gallery-item fade-in">
-                    <img src="Fotos Producto/media__1772048334043.png" alt="Fotografía de Producto">
+                <div class="gallery-item large-item fade-in">
+                    <img src="Fotos Producto/producto1.jpeg" alt="Fotografía de Producto 1">
                 </div>
                 <div class="gallery-item fade-in">
-                    <img src="Fotos Producto/media__1772048333820.png" alt="Fotografía de Producto">
+                    <img src="Fotos Producto/producto2.jpeg" alt="Fotografía de Producto 2">
                 </div>
                 <div class="gallery-item fade-in">
-                    <img src="Fotos Producto/media__1772048333760.png" alt="Fotografía de Producto">
+                    <img src="Fotos Producto/producto3.jpeg" alt="Fotografía de Producto 3">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Producto/producto3jpeg" alt="Fotografía de Producto 4">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Producto/producto5.jpeg" alt="Fotografía de Producto 5">
                 </div>
             </div>
         </div>
@@ -131,9 +136,8 @@
 
     <style>
         .product-gallery {
-            column-count: 3; column- 
-             
-             
+            column-count: 3;
+            column-gap: 20px;
         }
 
         .gallery-item {
@@ -154,39 +158,29 @@
         .gallery-item img {
             width: 100%;
             height: auto;
-            object-fit: cover;
+            object-fit: contain; /* Garantizar que no hay recortes */
             display: block;
+            background: #fff;
         }
 
-            @media (max-width: 900px) {
-            .editorial-gallery {
+        .gallery-item.large-item {
+            column-span: all;
+            width: 100%;
+        }
+
+        .gallery-item.large-item img {
+            max-height: 80vh;
+        }
+
+        @media (max-width: 900px) {
+            .product-gallery {
                 column-count: 2;
             }
         }
 
         @media (max-width: 600px) {
-            .editorial-gallery {
+            .product-gallery {
                 column-count: 1;
-            }
-        }
-
-             
-        }
-
-         
-                @media (max-width: 900px) {
-            .editorial-gallery {
-                column-count: 2;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .editorial-gallery {
-                column-count: 1;
-            }
-        }
-
-                 
             }
         }
     </style>

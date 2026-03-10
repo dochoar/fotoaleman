@@ -17,58 +17,65 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // --- DYNAMIC GLOBAL LIGHTBOX IMPLEMENTATION ---
-document.addEventListener("DOMContentLoaded", function () {
-    // 1. Create modal HTML dynamically
-    const modalHTML = `
-        <div id="global-image-modal" class="custom-lightbox-modal">
-            <span class="lightbox-close">&times;</span>
-            <img class="lightbox-content" id="lightbox-img" src="" alt="">
-            <div id="lightbox-caption"></div>
-        </div>
-    `;
-    document.body.insertAdjacentHTML('beforeend', modalHTML);
+function initLightbox() {
+    // 1. Create modal HTML dynamically if it doesn't exist
+    if (!document.getElementById("global-image-modal")) {
+        const modalHTML = `
+            <div id="global-image-modal" class="custom-lightbox-modal">
+                <span class="lightbox-close">&times;</span>
+                <img class="lightbox-content" id="lightbox-img" src="" alt="">
+                <div id="lightbox-caption"></div>
+            </div>
+        `;
+        document.body.insertAdjacentHTML('beforeend', modalHTML);
+    }
 
     const modal = document.getElementById("global-image-modal");
     const modalImg = document.getElementById("lightbox-img");
     const captionText = document.getElementById("lightbox-caption");
     const closeBtn = document.querySelector(".lightbox-close");
 
-    // 2. Select all images that should open in the lightbox
-    // We target all images except known icons, logos, or QRs.
-    const galleryImages = document.querySelectorAll('img:not([alt*="Logo"]):not([src*="logo"]):not([src*="qr"]):not(.no-lightbox)');
+    // 2. Event Delegation: Listen for clicks on the entire document
+    document.addEventListener("click", function (e) {
+        // Find if an image or a link containing an image was clicked
+        const img = e.target.closest('img');
+        
+        if (!img) return;
 
-    if (galleryImages.length > 0) {
-        galleryImages.forEach(function (img) {
-            // Add cursor pointer so user knows it's clickable
-            img.style.cursor = "zoom-in";
+        // Filtering: Ignore logos, icons, QR codes or elements with .no-lightbox
+        const isExcluded = 
+            img.alt.toLowerCase().includes("logo") || 
+            img.src.toLowerCase().includes("logo") || 
+            img.src.toLowerCase().includes("qr") || 
+            img.classList.contains("no-lightbox");
 
-            img.addEventListener("click", function (e) {
-                // Si la imagen está dentro de un link, prevenir que el navegador cambie de página
-                const isInsideAnchor = img.closest('a');
-                if (isInsideAnchor) {
-                    e.preventDefault();
-                }
+        if (isExcluded) return;
 
-                modal.style.display = "flex";
-                // Add a small delay for opacity transition
-                setTimeout(() => {
-                    modal.classList.add("show");
-                }, 10);
-                
-                modalImg.src = this.src;
-                captionText.innerHTML = this.alt || "";
-                document.body.style.overflow = "hidden"; // Prevent scrolling in background
-            });
-        });
-    }
+        // If we reach here, it's a valid gallery image
+        
+        // Prevent default if it's inside an anchor (priority to lightbox)
+        const isInsideAnchor = img.closest('a');
+        if (isInsideAnchor) {
+            e.preventDefault();
+        }
+
+        modal.style.display = "flex";
+        setTimeout(() => {
+            modal.classList.add("show");
+        }, 10);
+        
+        modalImg.src = img.src;
+        captionText.innerHTML = img.alt || "";
+        document.body.style.overflow = "hidden";
+    });
 
     // 3. Close modal logic
     const closeModal = () => {
         modal.classList.remove("show");
         setTimeout(() => {
             modal.style.display = "none";
-            document.body.style.overflow = "auto"; // Restore scrolling
-        }, 300); // Wait for transition
+            document.body.style.overflow = "auto";
+        }, 300);
     };
 
     if (closeBtn) {
@@ -77,23 +84,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (modal) {
         modal.addEventListener("click", function (event) {
-            // Close if clicking anywhere outside the image itself
             if (event.target !== modalImg) {
                 closeModal();
             }
         });
     }
     
-    // Allow closing with Escape key
     document.addEventListener("keydown", function(event) {
         if (event.key === "Escape" && modal.style.display === "flex") {
             closeModal();
         }
     });
-});
+}
+
+// Ensure initLightbox runs whether document is still loading or already loaded
+initLightbox();
 
 // Fade-in animation on scroll using Intersection Observer
-document.addEventListener("DOMContentLoaded", function () {
+function initAnimations() {
     const observerOptions = {
         threshold: 0.1,
         rootMargin: "0px 0px -50px 0px"
@@ -342,5 +350,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     });
-    // });
-});
+}
+
+// Ensure everything runs on load
+initAnimations();

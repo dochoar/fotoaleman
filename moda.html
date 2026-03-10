@@ -104,6 +104,22 @@
                 <div class="gallery-item fade-in">
                     <img src="Fotos Moda/foto1.jpeg" alt="Fotografía Moda 1">
                 </div>
+                <!-- Nuevas Fotos -->
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Moda/moda2.png" alt="Fotografía Moda 2">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Moda/moda3.png" alt="Fotografía Moda 3">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Moda/moda4.png" alt="Fotografía Moda 4">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Fotos Moda/moda5.png" alt="Fotografía Moda 5">
+                </div>
+                <div class="gallery-item large-item fade-in">
+                    <img src="Fotos Moda/moda6.png" alt="Fotografía Moda 6 Panorámica">
+                </div>
             </div>
         </div>
     </section>
@@ -132,8 +148,18 @@
         .gallery-item img {
             width: 100%;
             height: auto;
-            object-fit: cover;
+            object-fit: contain; /* Ajuste para evitar recortes */
             display: block;
+            background: #fff;
+        }
+
+        .gallery-item.large-item {
+            column-span: all;
+            width: 100%;
+        }
+
+        .gallery-item.large-item img {
+            max-height: 80vh;
         }
 
         @media (max-width: 900px) {

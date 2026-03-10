@@ -1635,6 +1635,10 @@ footer p {
         padding: 30px;
     }
 }
+/* Global Gallery Image Cursos */
+img:not([alt*="Logo"]):not([src*="logo"]):not([src*="qr"]):not(.no-lightbox) {
+    cursor: zoom-in;
+}
 
 /* --- DYNAMIC GLOBAL LIGHTBOX STYLES --- */
 .custom-lightbox-modal {

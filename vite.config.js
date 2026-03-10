@@ -11,7 +11,6 @@ export default defineConfig({
         graduaciones: 'graduaciones.html',
         bodas: 'bodas.html',
         estolas: 'estolas.html',
-        empresas: 'empresas.html',
         trayectoria: 'trayectoria.html',
         contacto: 'contacto.html',
 
