@@ -58,8 +58,8 @@ function initLightbox() {
             img.src.toLowerCase().includes("qr") || 
             img.classList.contains("no-lightbox") ||
             img.closest('.logo') ||
-            img.closest('.card') || // Excluir banners de categorías de la página de inicio
-            img.closest('.card-img-container');
+            // Excluir SOLAMENTE los banners de categorías de la página de inicio (que son enlaces directos)
+            (img.closest('a.card') && (img.closest('a.card').getAttribute('href').endsWith('.html')));
 
         if (isExcluded) return;
 
