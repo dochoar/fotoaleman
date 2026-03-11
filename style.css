@@ -504,6 +504,45 @@ header.scrolled .mobile-menu-btn {
     /* Space from bottom */
 }
 
+/* Page Specific Hero (Subpages) */
+.hero-page {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.hero-page::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%);
+}
+
+.hero-page-content {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    padding: 0 20px;
+    margin-top: 80px; /* Offset for header */
+}
+
+@media (max-width: 768px) {
+    .hero-page {
+        height: 50vh;
+    }
+}
+
+
 .hero-content {
     width: 100%;
     max-width: 800px;
@@ -1853,6 +1892,51 @@ footer p {
     margin-top: 5px;
     display: block;
 }
+
+/* Reviews with Image */
+.review-card.with-image {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    text-align: left;
+    padding: 30px 40px;
+    max-width: 850px;
+}
+
+.review-card.with-image .review-image {
+    flex: 0 0 250px;
+}
+
+.review-card.with-image .review-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.review-card.with-image .review-content {
+    flex: 1;
+}
+
+.review-card.with-image .quote-icon {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .review-card.with-image {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .review-card.with-image .review-image {
+        flex: 0 0 auto;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+}
+
 
 .reviews-carousel .carousel-nav {
     display: flex;
