@@ -23,6 +23,7 @@ export default defineConfig({
         pagos: 'pagos.html',
         moda: 'moda.html',
         quinceaneras: 'quinceaneras.html',
+        opiniones: 'opiniones.html',
       },
     },
   },
