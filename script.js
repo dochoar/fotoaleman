@@ -145,6 +145,11 @@ function initAnimations() {
             this.currentIndex = 0;
             this.autoplayInterval = null;
 
+            // Touch properties
+            this.touchStartX = 0;
+            this.touchEndX = 0;
+            this.swipeThreshold = 50; // Minimum distance for a swipe
+
             this.init();
         }
 
@@ -225,6 +230,46 @@ function initAnimations() {
                     this.resetAutoplay();
                 });
             }
+
+            // Touch events for swipe
+            this.track.addEventListener('touchstart', (e) => this.handleTouchStart(e), { passive: true });
+            this.track.addEventListener('touchmove', (e) => this.handleTouchMove(e), { passive: true });
+            this.track.addEventListener('touchend', () => this.handleTouchEnd());
+        }
+
+        handleTouchStart(e) {
+            this.touchStartX = e.touches[0].clientX;
+        }
+
+        handleTouchMove(e) {
+            this.touchEndX = e.touches[0].clientX;
+        }
+
+        handleTouchEnd() {
+            const swipeDistance = this.touchEndX - this.touchStartX;
+            
+            // Check if touchEndX was actually updated (not just a tap)
+            if (this.touchEndX === 0) return;
+
+            if (Math.abs(swipeDistance) > this.swipeThreshold) {
+                if (swipeDistance > 0) {
+                    // Swipe Right (Go to Previous)
+                    if (this.currentIndex > 0) {
+                        this.moveToSlide(this.currentIndex - 1);
+                        this.resetAutoplay();
+                    }
+                } else {
+                    // Swipe Left (Go to Next)
+                    if (this.currentIndex < this.slides.length - 1) {
+                        this.moveToSlide(this.currentIndex + 1);
+                        this.resetAutoplay();
+                    }
+                }
+            }
+            
+            // Reset values
+            this.touchStartX = 0;
+            this.touchEndX = 0;
         }
 
         startAutoplay() {
