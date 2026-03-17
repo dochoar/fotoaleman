@@ -1822,7 +1822,13 @@ footer p {
     .carousel-button {
         display: none; /* Dots are enough for mobile */
     }
+    
+    .celebrity-carousel {
+        height: 480px !important; /* Ensure visibility on mobile */
+    }
 }
+
+/* Git sync point */
 
 .reviews-carousel {
     position: relative;
