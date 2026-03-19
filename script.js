@@ -391,3 +391,10 @@ function initAnimations() {
 // Ensure everything runs on load
 initLightbox();
 initAnimations();
+
+// Prevent right-click on images (except QR)
+document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG' && !e.target.src.toLowerCase().includes('qr')) {
+        e.preventDefault();
+    }
+});

@@ -1992,3 +1992,13 @@ footer p {
     }
 }
 
+/* --- PREVENT IMAGE DOWNLOAD (Except QR) --- */
+img:not([src*="qr"]) {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    pointer-events: auto; /* Ensure clicks still work for lightbox/carousel */
+}
