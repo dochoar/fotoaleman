@@ -1707,11 +1707,12 @@ footer p {
 .custom-lightbox-modal .lightbox-content {
     margin: auto;
     display: block;
-    max-width: 90%;
+    width: 100%;
+    height: 100%;
+    max-width: 90vw;
     max-height: 85vh;
     object-fit: contain;
     border-radius: 4px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
     transform: scale(0.95);
     transition: transform 0.3s ease;
 }
@@ -1756,8 +1757,10 @@ footer p {
 /* Mobile responsiveness for Lightbox */
 @media only screen and (max-width: 768px){
     .custom-lightbox-modal .lightbox-content {
-        max-width: 98%;
-        max-height: 80vh;
+        width: 100%;
+        height: 100%;
+        max-width: 100vw;
+        max-height: 75vh;
     }
     .lightbox-close {
         top: 15px;

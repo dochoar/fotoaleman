@@ -1,18 +1,18 @@
 import re
 
 photos = [
-    "c_Agradecimiento Domino.png",
-    "b_Agrardecimiento Rolex.png",
-    "Agardecimiento Bicolor.png",
-    "a_Agradecimiento Taxco.png"
+    "c_Agradecimiento Domino.webp",
+    "b_Agrardecimiento Rolex.webp",
+    "Agardecimiento Bicolor.webp",
+    "a_Agradecimiento Taxco.webp"
 ]
 
 parsed = []
 for p in photos:
     # Match optional a_, b_, c_, etc. or no prefix
-    # Need to be careful: "Agardecimiento Bicolor.png" has 'A' which might match [a-zA-Z]_? No, there is no underscore.
-    # So we match (?:([a-zA-Z])_)?\s*(.*)\.png$
-    m = re.match(r'^(?:([a-zA-Z])_)?\s*(.*?)\.png$', p)
+    # Need to be careful: "Agardecimiento Bicolor.webp" has 'A' which might match [a-zA-Z]_? No, there is no underscore.
+    # So we match (?:([a-zA-Z])_)?\s*(.*)\.webp$
+    m = re.match(r'^(?:([a-zA-Z])_)?\s*(.*?)\.webp$', p)
     if m:
         prefix = m.group(1) or ""
         title = m.group(2).strip()

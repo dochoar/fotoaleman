@@ -1,18 +1,18 @@
 import re
 
 photos = [
-    "P01_Placa Bronce.png",
-    "P02_Placa Metal 01.png",
-    "P03_Placa Metal 02.png",
-    "P04_Placa Metal 03.png",
-    "P05_Placa Melanina Clasica.png",
-    "P06_Placa Melanina Cristal.png",
-    "P07_Placa Melanina Media Ñuna.png"
+    "P01_Placa Bronce.webp",
+    "P02_Placa Metal 01.webp",
+    "P03_Placa Metal 02.webp",
+    "P04_Placa Metal 03.webp",
+    "P05_Placa Melanina Clasica.webp",
+    "P06_Placa Melanina Cristal.webp",
+    "P07_Placa Melanina Media Ñuna.webp"
 ]
 
 parsed = []
 for p in photos:
-    m = re.match(r'^P\d{2}_\s*(.*?)\.png$', p)
+    m = re.match(r'^P\d{2}_\s*(.*?)\.webp$', p)
     if m:
         title = m.group(1).strip()
         title = title.replace("Melanina", "Melamina").replace("Ñuna", "Luna")
