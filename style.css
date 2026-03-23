@@ -788,8 +788,8 @@ header.scrolled .mobile-menu-btn {
 
 /* Featured Section (Dark) */
 .featured-section {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: var(--color-gray);
+    color: var(--color-text);
     padding: 100px 0;
 }
 
@@ -801,21 +801,21 @@ header.scrolled .mobile-menu-btn {
 }
 
 .featured-content h2 {
-    color: var(--color-white);
+    color: var(--color-black);
     font-size: 3.5rem;
     margin-bottom: 20px;
 }
 
 .featured-content p {
-    color: #aaa;
+    color: #444;
     margin-bottom: 30px;
     font-size: 1.1rem;
 }
 
 .btn-featured {
     background: transparent;
-    border: 1px solid var(--color-white);
-    color: var(--color-white);
+    border: 1px solid var(--color-black);
+    color: var(--color-black);
     padding: 12px 30px;
     text-transform: uppercase;
     letter-spacing: 0.15em;
@@ -825,8 +825,8 @@ header.scrolled .mobile-menu-btn {
 }
 
 .btn-featured:hover {
-    background: var(--color-white);
-    color: var(--color-black);
+    background: var(--color-black);
+    color: var(--color-white);
 }
 
 /* --- LIST STYLE FOR SERVICES --- */

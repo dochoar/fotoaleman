@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fotografía Editorial · Foto Alemán</title>
     <meta name="description" content="Foto Alemán - Fotografía editorial profesional.">
-    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="icon" type="image/png" href="assets/icon.png">
 
     <!-- Google Fonts: Playfair Display & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Custom CSS -->
-  <script type="module" crossorigin src="/assets/script-DHSx2aYO.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/script-C6eQ8tWd.css">
+
+    <!-- Technical SEO Tags -->
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.fotoaleman.com/editorial.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.fotoaleman.com/editorial.html">
+    <meta property="og:title" content="Fotografía Editorial · Foto Alemán">
+    <meta property="og:description" content="Foto Alemán - Fotografía editorial profesional.">
+    <meta property="og:image" content="https://www.fotoaleman.com/assets/icon.png">
+    <meta property="og:site_name" content="Foto Alemán">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.fotoaleman.com/editorial.html">
+    <meta name="twitter:title" content="Fotografía Editorial · Foto Alemán">
+    <meta name="twitter:description" content="Foto Alemán - Fotografía editorial profesional.">
+    <meta name="twitter:image" content="https://www.fotoaleman.com/assets/icon.png">
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Fotografía Editorial · Foto Alemán",
+    "description": "Foto Alemán - Fotografía editorial profesional.",
+    "url": "https://www.fotoaleman.com/editorial.html"
+}
+    </script>
+  <script type="module" crossorigin src="/assets/script-DR6fr_ld.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/script-DC62XWjn.css">
 </head>
 
 <body>
@@ -36,21 +62,23 @@
                 <a href="graduaciones.html">Graduaciones</a>
                 <a href="bodas.html">Bodas</a>
                 <a href="quinceaneras.html">Quinceañeras</a>
-                <a href="estudio.html">Estudio</a>
-                <a href="politica.html">Política</a>
+                <a href="estudio.html">Foto Identificación</a>
+                <a href="infantiles.html">Retrato familiar</a>
             </div>
             <div class="menu-wrapper"><nav class="nav-links">
                 <a href="index.html#catálogo">Catálogo</a>
                 <a href="graduaciones.html">Graduaciones</a>
                 <a href="bodas.html">Bodas</a>
                 <a href="quinceaneras.html">Quinceañeras</a>
-                <a href="estolas.html">Estolas</a>
-                <a href="estudio.html">Estudio</a>
-                <a href="editorial.html">Editorial</a>
-                <a href="producto.html">Producto</a>
-                <a href="infantiles.html">Retratos de familia</a>
-                <a href="politica.html">Política</a>
+                <a href="estudio.html">Foto Identificación</a>
+                <a href="infantiles.html">Retrato familiar</a>
+                <a href="politica.html">Foto Política</a>
+                <a href="gobernadores.html">Gobernadora</a>
                 <a href="moda.html">Moda</a>
+                <a href="producto.html">Producto</a>
+                <a href="editorial.html">Editorial</a>
+                <a href="estolas.html">Estolas, togas y birretes</a>
+                <a href="opiniones.html">Opiniones</a>
                 <a href="index.html#trayectoria">Trayectoria</a>
                 <a href="index.html#historias">Historias</a>
             </nav>
@@ -115,9 +143,9 @@
                 <div class="gallery-item fade-in">
                     <img src="/assets/nomada-sumiya-BQUGnX5J.jpg" alt="Revista Nómada Sumiya">
                 </div>
-                <!-- New: El Rollo History -->
+                <!-- New: El Rollo Editorial -->
                 <div class="gallery-item fade-in">
-                    <img src="/assets/editorial-el-rollo-historia-Bvo3sP_n.png" alt="Libro 57 Años de Historia El Rollo">
+                    <img src="/assets/elrollo-xStMlWnF.jpeg" alt="Editorial El Rollo">
                 </div>
             </div>
         </div>
@@ -125,12 +153,14 @@
 
     <style>
         .editorial-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
+            column-count: 3;
+            column-gap: 20px;
         }
 
         .gallery-item {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 20px;
             overflow: hidden;
             border-radius: 4px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -144,19 +174,20 @@
 
         .gallery-item img {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            height: auto;
+            object-fit: contain;
             display: block;
         }
 
-        .large-item {
-            grid-column: span 2;
-            grid-row: span 1;
+            @media (max-width: 900px) {
+            .editorial-gallery {
+                column-count: 2;
+            }
         }
 
-        @media (max-width: 768px) {
-            .large-item {
-                grid-column: span 1;
+        @media (max-width: 600px) {
+            .editorial-gallery {
+                column-count: 1;
             }
         }
     </style>
