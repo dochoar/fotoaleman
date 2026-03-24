@@ -1,3 +1,10 @@
+// --- CONSTANTS ---
+const CAROUSEL_AUTOPLAY_MS = 10000;
+const CAROUSEL_SWIPE_THRESHOLD_PX = 50;
+const LIGHTBOX_TRANSITION_MS = 300;
+const SCROLL_OBSERVER_MARGIN = "0px 0px -50px 0px";
+const SCROLL_OBSERVER_THRESHOLD = 0.1;
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -85,7 +92,7 @@ function initLightbox() {
         setTimeout(() => {
             modal.style.display = "none";
             document.body.style.overflow = "auto";
-        }, 300);
+        }, LIGHTBOX_TRANSITION_MS);
     };
 
     if (closeBtn) {
@@ -110,8 +117,8 @@ function initLightbox() {
 // Fade-in animation on scroll using Intersection Observer
 function initAnimations() {
     const observerOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: SCROLL_OBSERVER_THRESHOLD,
+        rootMargin: SCROLL_OBSERVER_MARGIN
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
@@ -148,7 +155,7 @@ function initAnimations() {
             // Touch properties
             this.touchStartX = 0;
             this.touchEndX = 0;
-            this.swipeThreshold = 50; // Minimum distance for a swipe
+            this.swipeThreshold = CAROUSEL_SWIPE_THRESHOLD_PX;
 
             this.init();
         }
@@ -277,7 +284,7 @@ function initAnimations() {
                 const isLastSlide = this.currentIndex === this.slides.length - 1;
                 const targetIndex = isLastSlide ? 0 : this.currentIndex + 1;
                 this.moveToSlide(targetIndex);
-            }, 10000); // Increased from 5000ms to 10000ms for more reading time
+            }, CAROUSEL_AUTOPLAY_MS);
         }
 
         resetAutoplay() {

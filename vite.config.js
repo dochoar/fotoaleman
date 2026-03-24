@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
   build: {
     rollupOptions: {
       input: {
@@ -13,7 +11,6 @@ export default defineConfig({
         estolas: 'estolas.html',
         trayectoria: 'trayectoria.html',
         contacto: 'contacto.html',
-
         estudio: 'estudio.html',
         editorial: 'editorial.html',
         producto: 'producto.html',

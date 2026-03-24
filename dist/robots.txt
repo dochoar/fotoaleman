@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-sitemap: https://revistanomada.com/sitemap.xml
+Sitemap: https://www.fotoaleman.com/sitemap.xml
