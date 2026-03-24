@@ -5,9 +5,9 @@ photos = [
     "P02_Placa Metal 01.webp",
     "P03_Placa Metal 02.webp",
     "P04_Placa Metal 03.webp",
-    "P05_Placa Melanina Clasica.webp",
-    "P06_Placa Melanina Cristal.webp",
-    "P07_Placa Melanina Media Ñuna.webp"
+    "P05_Placa Clasica.webp",
+    "P06_Placa Cristal.webp",
+    "P07_Placa Media Luna.webp"
 ]
 
 parsed = []
@@ -15,7 +15,7 @@ for p in photos:
     m = re.match(r'^P\d{2}_\s*(.*?)\.webp$', p)
     if m:
         title = m.group(1).strip()
-        title = title.replace("Melanina", "Melamina").replace("Ñuna", "Luna")
+        # No longer need complex replacements for renamed files
         parsed.append((p, title))
 
 cards_html = []

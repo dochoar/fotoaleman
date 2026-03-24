@@ -1,80 +1,369 @@
-Conversion started at: 2026-02-03 22:30:56.316354
+Conversion started at: 2026-03-24 12:10:21.399643
 Quality level: 85
 ======================================================================
 
-✓ dist/assets/banner-t3-DQgMyeYK.png -> dist/assets/banner-t3-DQgMyeYK.webp
-✓ dist/assets/banner_congreso_dark-CMDplrh-.png -> dist/assets/banner_congreso_dark-CMDplrh-.webp
+⊘ assets/Credencial Pepe Aleman.png (skipped - already exists)
+⊘ assets/Opiniones.png (skipped - already exists)
+⊘ assets/hero-bg-2026.jpg (skipped - already exists)
+✗ assets/hero-bg-new.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/assets/hero-bg-new.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/assets/hero-bg-new.jpg'
+
+⊘ assets/logo_trasciende.png (skipped - already exists)
+⊘ assets/qr-graduaciones.png (skipped - already exists)
+⊘ assets/qr-pagos.png (skipped - already exists)
+⊘ assets/qr_code_fotoaleman.png (skipped - already exists)
+⊘ dist/FotoEstolas/Gemini_Generated_Image_m8agnlm8agnlm8ag_1.png (skipped - already exists)
+⊘ dist/FotoEstolas/Gemini_Generated_Image_na15h2na15h2na15.png (skipped - already exists)
+⊘ dist/assets/Credencial Pepe Aleman-DFUOnad-.png (skipped - already exists)
+⊘ dist/assets/Estola 1_9929-C65Heswh.jpg (skipped - already exists)
+⊘ dist/assets/Estola 2_9934-BjWTs0Vc.jpg (skipped - already exists)
+⊘ dist/assets/Estola 6_9955-B3wiaAOO.jpg (skipped - already exists)
+⊘ dist/assets/Estola 7_9958-Bsk0X311.jpg (skipped - already exists)
+⊘ dist/assets/Familia-DWxSakSk.jpeg (skipped - already exists)
+⊘ dist/assets/GOBERNADORA-DRI7fE_Y.jpg (skipped - already exists)
+⊘ dist/assets/NIño-BNXVJ-jB.png (skipped - already exists)
+⊘ dist/assets/Politico_Sombrero-DCC1fLll.png (skipped - already exists)
+⊘ dist/assets/amalia_garca-CHqGg3ju.jpg (skipped - already exists)
+⊘ dist/assets/andrs_manuel_lpez_obrador_amlo-Dtv6G2X7.jpg (skipped - already exists)
+⊘ dist/assets/archivo_poltico-prTUqxxF.jpg (skipped - already exists)
+⊘ dist/assets/aristteles_sandoval-B8Ecwqb_.jpg (skipped - already exists)
+⊘ dist/assets/b1738d50-f2c2-45b8-be98-3f46b3e09151_0-CMFauycD.jpg (skipped - already exists)
+⊘ dist/assets/bodahugosanchez-Bxf9gMhq.jpeg (skipped - already exists)
+⊘ dist/assets/campaa_electoral-Cp6bzHpy.jpg (skipped - already exists)
+⊘ dist/assets/celebridad-BNGEvfyC.png (skipped - already exists)
+⊘ dist/assets/celebridad-DsXDyDlb.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_1-BUtLrIYC.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_10-DEbdGwGw.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_11-BVzZwU-D.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_12-C3gZzouK.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_13-CHqnsOAb.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_2-DtU0Q7yy.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_5-DjnuW-m7.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_6-Cr1I_6sx.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_7-7L_O25EF.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_8-B-Kc8Wck.jpg (skipped - already exists)
+⊘ dist/assets/celebridad_9-CoxSP67L.jpg (skipped - already exists)
+⊘ dist/assets/celebridadpintor-ClveL_HD.png (skipped - already exists)
+⊘ dist/assets/claudia_cervantes-TkXCK8zU.png (skipped - already exists)
+⊘ dist/assets/cuauhtmoc_blanco_bravo_2018-2024-CLPHJ0cW.jpg (skipped - already exists)
+⊘ dist/assets/diego_fernandez-5q7J7Baz.png (skipped - already exists)
+⊘ dist/assets/editorial-espejos-CMkkx8cT.jpg (skipped - already exists)
+⊘ dist/assets/editorial-nomada-CAzB0Qke.jpg (skipped - already exists)
+⊘ dist/assets/editorial-personajes-ClmeQL9P.jpg (skipped - already exists)
+⊘ dist/assets/ee91a68c-f90e-4b9a-ba45-4779d6c65af8_0-BwicNqWt.jpg (skipped - already exists)
+⊘ dist/assets/elrollo-xStMlWnF.jpeg (skipped - already exists)
+⊘ dist/assets/embarazada-e9BFrYm8.jpg (skipped - already exists)
+⊘ dist/assets/ex_gobernador_de_morelos-B6XWeRQ4.jpg (skipped - already exists)
+⊘ dist/assets/ex_gobernador_de_morelos_1-4RlubHaZ.jpg (skipped - already exists)
+⊘ dist/assets/exgobenmoto-BvYPcuiV.jpeg (skipped - already exists)
+⊘ dist/assets/familia-BP7Sx_vs.jpg (skipped - already exists)
+⊘ dist/assets/figura_poltica_-_retrato-WZiT-glU.jpg (skipped - already exists)
+⊘ dist/assets/foto1-e3E08tgw.jpeg (skipped - already exists)
+⊘ dist/assets/foto_poltica_adicional-DsaMgmsy.jpg (skipped - already exists)
+⊘ dist/assets/foto_poltica_adicional_1-Bt6BHbpT.jpg (skipped - already exists)
+⊘ dist/assets/foto_poltica_adicional_2-Ql5DnlWm.jpg (skipped - already exists)
+⊘ dist/assets/fotografa_poltica-DnJ-RiMr.jpg (skipped - already exists)
+⊘ dist/assets/fotos-identificacion-B7UyidM0.jpg (skipped - already exists)
+⊘ dist/assets/graco_ramrez_abreu_2012-2018-WMsG-ilv.jpg (skipped - already exists)
+⊘ dist/assets/hero-bg-2026-B5Mz_8r_.jpg (skipped - already exists)
+⊘ dist/assets/hombre_politico-CBKMI9-0.png (skipped - already exists)
+⊘ dist/assets/imagen_pblica-CUuBMOOv.jpg (skipped - already exists)
+⊘ dist/assets/impacto_visual-BTev0cdd.jpg (skipped - already exists)
+⊘ dist/assets/ivonne_ortega_pacheco-CgycYxPz.jpg (skipped - already exists)
+⊘ dist/assets/jonathan_aldama-DXRYGoYd.png (skipped - already exists)
+⊘ dist/assets/josefina_vzquez_mota-KqCNbpfa.jpg (skipped - already exists)
+⊘ dist/assets/juan_gabriel_-_el_divo_de_jurez-CMFvuQMK.jpeg (skipped - already exists)
+⊘ dist/assets/la_tigresa-jGIQBBom.jpeg (skipped - already exists)
+⊘ dist/assets/legislatura-DCIg4A6_.png (skipped - already exists)
+⊘ dist/assets/logo_trasciende-Ba6ZBZgV.png (skipped - already exists)
+⊘ dist/assets/lopez_portillo-Dx7OxgyU.jpg (skipped - already exists)
+⊘ dist/assets/lopez_portillo_v3-BzFXY2CV.png (skipped - already exists)
+⊘ dist/assets/manlio_fabio_beltrones-CdhMW03f.jpg (skipped - already exists)
+⊘ dist/assets/marco_antonio_adame_castillo_2006-2012-DFETGlJl.jpg (skipped - already exists)
+⊘ dist/assets/media__1772047965754-CuTD8-b3.jpg (skipped - already exists)
+⊘ dist/assets/media__1772047965770-CZJYUF2K.jpg (skipped - already exists)
+⊘ dist/assets/media__1772047965793-CftfzALr.jpg (skipped - already exists)
+⊘ dist/assets/media__1772047965822-DFTbXh9i.jpg (skipped - already exists)
+⊘ dist/assets/media__1772047965865-NY2BIqwU.jpg (skipped - already exists)
+⊘ dist/assets/media__1772222305464-CSOQ1upl.jpg (skipped - already exists)
+⊘ dist/assets/moda2-BciXutf6.png (skipped - already exists)
+⊘ dist/assets/moda3-B1O4hM_Y.png (skipped - already exists)
+⊘ dist/assets/moda4-K2s-XtMM.png (skipped - already exists)
+⊘ dist/assets/moda5-RRY0KsQA.png (skipped - already exists)
+⊘ dist/assets/moda6-CiA6Jo9k.png (skipped - already exists)
+⊘ dist/assets/nina-BOgzjlfP.jpg (skipped - already exists)
+⊘ dist/assets/nomada-sumiya-BQUGnX5J.jpg (skipped - already exists)
+⊘ dist/assets/oswald_alonso-qvMSM59N.png (skipped - already exists)
+⊘ dist/assets/portada-CiQ_4HSi.jpg (skipped - already exists)
+⊘ dist/assets/potadasccion-Bg3-KRQO.jpg (skipped - already exists)
+⊘ dist/assets/producto-david-tURyjhYl.jpg (skipped - already exists)
+⊘ dist/assets/producto-dinosaurio-1NmUPRT2.jpg (skipped - already exists)
+⊘ dist/assets/producto-flores-bolsa-CXhw6Wke.jpg (skipped - already exists)
+⊘ dist/assets/producto-perro-globo-pO68xwWK.jpg (skipped - already exists)
+⊘ dist/assets/producto1-DC-G9IgB.jpeg (skipped - already exists)
+⊘ dist/assets/producto2-DPtfMMgu.jpeg (skipped - already exists)
+⊘ dist/assets/producto3-DsJ7xqSr.jpeg (skipped - already exists)
+⊘ dist/assets/producto4-BBsgcyKz.jpeg (skipped - already exists)
+⊘ dist/assets/producto5--I1BowCR.jpeg (skipped - already exists)
+⊘ dist/assets/proyeccin_poltica_de_estado-fS4_p9PG.jpg (skipped - already exists)
+⊘ dist/assets/roberto_madrazo-CqKFcYp3.jpg (skipped - already exists)
+⊘ dist/assets/salma_hayek-DqMBb35T.jpg (skipped - already exists)
+⊘ dist/assets/salmahayek2-DqDbubfw.jpeg (skipped - already exists)
+⊘ dist/assets/salmahayek3-BqUWv0Ar.jpeg (skipped - already exists)
+⊘ dist/assets/sasil_de_len_-_liderazgo-BaF1YUON.jpg (skipped - already exists)
+⊘ dist/assets/señor--ukx3Mbj.jpeg (skipped - already exists)
+⊘ dist/assets/señorafamosa-HFzrDagT.jpeg (skipped - already exists)
+⊘ dist/assets/talia41-CaPSH59A.png (skipped - already exists)
+⊘ dist/assets/taliasd-Dy7Jkjv4.png (skipped - already exists)
+⊘ dist/assets/thalias-QI_DYZZ5.png (skipped - already exists)
+⊘ dist/celebridades/0514807b-fc5f-4341-9420-dd6401b2d4a5_0.jpg (skipped - already exists)
+⊘ dist/celebridades/12e23a39-25c7-469a-b74f-b717ce28997f_0.jpg (skipped - already exists)
+⊘ dist/celebridades/35c256dc-c8f5-4221-b031-a269785344fa_0.jpg (skipped - already exists)
+⊘ dist/celebridades/54ed2c3d-75fc-43a7-a014-c7896d1f9e71_0.jpg (skipped - already exists)
+⊘ dist/celebridades/59534e57-a4f1-4e36-95dc-3ee5aad544e0_0.jpg (skipped - already exists)
+⊘ dist/celebridades/62f8f133-54cb-4fed-97d4-7ce1c31b66de_0.jpg (skipped - already exists)
+⊘ dist/celebridades/7ee061c7-41ff-4531-805b-799df1c2bb30_0.jpg (skipped - already exists)
+⊘ dist/celebridades/8489ea74-1c3e-4276-8523-62cb46f83d31_0.jpg (skipped - already exists)
+⊘ dist/celebridades/a5a5aec7-88a6-4d50-90ff-ff17bca0c88c_0.jpg (skipped - already exists)
+⊘ dist/celebridades/a600ef5e-c0dc-44ab-9aad-21c5b8411879_0.jpg (skipped - already exists)
+⊘ dist/celebridades/a8352c95-9693-4ff3-a31d-9454afcc6b62_0.jpg (skipped - already exists)
+⊘ dist/celebridades/aaaaebe2-5d90-4a71-ba91-3966eda68ef1_0.jpg (skipped - already exists)
+⊘ dist/celebridades/edda0611-57e1-4cdc-be67-2a81c66641eb_0.jpg (skipped - already exists)
 ⊘ dist/favicon.jpg (skipped - already exists)
+⊘ dist/favicon.png (skipped - already exists)
+⊘ dist/fotos-identificacion.jpg (skipped - already exists)
+⊘ dist/hero-bg-2026.jpg (skipped - already exists)
+⊘ dist/icon.png (skipped - already exists)
+⊘ dist/photo_day_hacienda.jpg (skipped - already exists)
+⊘ dist/qr_code_fotoaleman.png (skipped - already exists)
+⊘ dist/videos/temixco-cover-1.jpg (skipped - already exists)
+⊘ dist/videos/temixco-cover-2.jpg (skipped - already exists)
+⊘ fotos-bodas/b1738d50-f2c2-45b8-be98-3f46b3e09151_0.jpg (skipped - already exists)
+⊘ fotos-bodas/bodahugosanchez.jpeg (skipped - already exists)
+⊘ fotos-bodas/ee91a68c-f90e-4b9a-ba45-4779d6c65af8_0.jpg (skipped - already exists)
+⊘ fotos-bodas/fotoboda_portada.jpg (skipped - already exists)
+⊘ fotos-bodas/media__1772047965754.jpg (skipped - already exists)
+⊘ fotos-bodas/media__1772047965770.jpg (skipped - already exists)
+⊘ fotos-bodas/media__1772047965793.jpg (skipped - already exists)
+⊘ fotos-bodas/media__1772047965822.jpg (skipped - already exists)
+⊘ fotos-bodas/media__1772047965865.jpg (skipped - already exists)
+✓ fotos-celebridades/Rickymartin.png -> fotos-celebridades/Rickymartin.webp
+✓ fotos-celebridades/celebridad.jpg -> fotos-celebridades/celebridad.webp
+⊘ fotos-celebridades/celebridad.png (skipped - already exists)
+✓ fotos-celebridades/celebridad10.png -> fotos-celebridades/celebridad10.webp
+✓ fotos-celebridades/celebridad_1.jpg -> fotos-celebridades/celebridad_1.webp
+✓ fotos-celebridades/celebridad_10.jpg -> fotos-celebridades/celebridad_10.webp
+✓ fotos-celebridades/celebridad_11.jpg -> fotos-celebridades/celebridad_11.webp
+✓ fotos-celebridades/celebridad_12.jpg -> fotos-celebridades/celebridad_12.webp
+✓ fotos-celebridades/celebridad_13.jpg -> fotos-celebridades/celebridad_13.webp
+✓ fotos-celebridades/celebridad_2.jpg -> fotos-celebridades/celebridad_2.webp
+✓ fotos-celebridades/celebridad_5.jpg -> fotos-celebridades/celebridad_5.webp
+✓ fotos-celebridades/celebridad_6.jpg -> fotos-celebridades/celebridad_6.webp
+✓ fotos-celebridades/celebridad_7.jpg -> fotos-celebridades/celebridad_7.webp
+✓ fotos-celebridades/celebridad_8.jpg -> fotos-celebridades/celebridad_8.webp
+✓ fotos-celebridades/celebridad_9.jpg -> fotos-celebridades/celebridad_9.webp
+✓ fotos-celebridades/celebridadpintor.png -> fotos-celebridades/celebridadpintor.webp
+✓ fotos-celebridades/juan_gabriel_-_el_divo_de_jurez.jpeg -> fotos-celebridades/juan_gabriel_-_el_divo_de_jurez.webp
+✓ fotos-celebridades/la_tigresa.jpeg -> fotos-celebridades/la_tigresa.webp
+✓ fotos-celebridades/margarita.jpeg -> fotos-celebridades/margarita.webp
+✓ fotos-celebridades/salma_hayek.jpg -> fotos-celebridades/salma_hayek.webp
+✓ fotos-celebridades/salmahayek2.jpeg -> fotos-celebridades/salmahayek2.webp
+✓ fotos-celebridades/salmahayek3.jpeg -> fotos-celebridades/salmahayek3.webp
+✓ fotos-celebridades/señor.jpeg -> fotos-celebridades/señor.webp
+✓ fotos-celebridades/señorafamosa.jpeg -> fotos-celebridades/señorafamosa.webp
+✓ fotos-celebridades/talia41.png -> fotos-celebridades/talia41.webp
+✓ fotos-celebridades/taliasd.png -> fotos-celebridades/taliasd.webp
+✓ fotos-celebridades/thalias.png -> fotos-celebridades/thalias.webp
+⊘ fotos-editorial/editorial-el-rollo-historia.png (skipped - already exists)
+⊘ fotos-editorial/editorial-espejos.jpg (skipped - already exists)
+⊘ fotos-editorial/editorial-mockup-arte.jpg (skipped - already exists)
+⊘ fotos-editorial/editorial-nomada.jpg (skipped - already exists)
+⊘ fotos-editorial/editorial-personajes.jpg (skipped - already exists)
+⊘ fotos-editorial/editorial-spread-arte.jpg (skipped - already exists)
+⊘ fotos-editorial/elrollo.jpeg (skipped - already exists)
+⊘ fotos-editorial/nomada-sumiya.jpg (skipped - already exists)
+⊘ fotos-estolas/Estola 1_9929.jpg (skipped - already exists)
+⊘ fotos-estolas/Estola 2_9934.jpg (skipped - already exists)
+⊘ fotos-estolas/Estola 3_9936.jpg (skipped - already exists)
+⊘ fotos-estolas/Estola 4_9942.jpg (skipped - already exists)
+⊘ fotos-estolas/Estola 6_9955.jpg (skipped - already exists)
+⊘ fotos-estolas/Estola 7_9958.jpg (skipped - already exists)
+✗ fotos-estolas/Estola_3_actualizada.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/fotos-estolas/Estola_3_actualizada.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-estolas/Estola_3_actualizada.jpg'
+
+✗ fotos-estolas/Estola_3_actualizada_bak.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/fotos-estolas/Estola_3_actualizada_bak.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-estolas/Estola_3_actualizada_bak.jpg'
+
+✗ fotos-estolas/Estola_4_actualizada.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/fotos-estolas/Estola_4_actualizada.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-estolas/Estola_4_actualizada.jpg'
+
+✗ fotos-estolas/Estola_4_actualizada_bak.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/fotos-estolas/Estola_4_actualizada_bak.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-estolas/Estola_4_actualizada_bak.jpg'
+
+⊘ fotos-estolas/estoladoradaamarilla.png (skipped - already exists)
+⊘ fotos-estolas/estoladoradaamarilla2.jpg (skipped - already exists)
+⊘ fotos-familiar/Familia.jpeg (skipped - already exists)
+⊘ fotos-familiar/NIño.png (skipped - already exists)
+⊘ fotos-familiar/embarazada.jpg (skipped - already exists)
+⊘ fotos-familiar/familia.jpg (skipped - already exists)
+⊘ fotos-familiar/fotografia-infantiles.jpg (skipped - already exists)
+⊘ fotos-familiar/nina.jpg (skipped - already exists)
+⊘ fotos-identificacion/fotos-identificacion.jpg (skipped - already exists)
+⊘ fotos-moda/foto1.jpeg (skipped - already exists)
+⊘ fotos-moda/moda2.png (skipped - already exists)
+⊘ fotos-moda/moda3.png (skipped - already exists)
+⊘ fotos-moda/moda4.png (skipped - already exists)
+⊘ fotos-moda/moda5.png (skipped - already exists)
+⊘ fotos-moda/moda6.png (skipped - already exists)
+⊘ fotos-moda/portada.jpg (skipped - already exists)
+⊘ fotos-opiniones/claudia_cervantes.png (skipped - already exists)
+⊘ fotos-opiniones/jonathan_aldama.png (skipped - already exists)
+⊘ fotos-opiniones/legislatura.png (skipped - already exists)
+⊘ fotos-opiniones/opinion2}_n.jpg (skipped - already exists)
+⊘ fotos-opiniones/opinion_n.jpg (skipped - already exists)
+⊘ fotos-opiniones/opinionmararita_n.jpg (skipped - already exists)
+⊘ fotos-opiniones/oswald_alonso.png (skipped - already exists)
+⊘ fotos-opiniones/portadaopiniones.jpg (skipped - already exists)
+⊘ fotos-opiniones/potadasccion.jpg (skipped - already exists)
+⊘ fotos-opiniones/radio_formula.png (skipped - already exists)
+⊘ fotos-politica/114ac0ef-009b-4ac5-9f6d-6f39b23f182b_0.jpg (skipped - already exists)
+⊘ fotos-politica/GOBERNADORA.jpg (skipped - already exists)
+⊘ fotos-politica/Mujer_Politico_Nueva.png (skipped - already exists)
+⊘ fotos-politica/Politico_Sombrero.png (skipped - already exists)
+⊘ fotos-politica/Politico_Traje.png (skipped - already exists)
+⊘ fotos-politica/amalia_garca.jpg (skipped - already exists)
+⊘ fotos-politica/andrs_manuel_lpez_obrador_amlo.jpg (skipped - already exists)
+⊘ fotos-politica/archivo_poltico.jpg (skipped - already exists)
+⊘ fotos-politica/aristteles_sandoval.jpg (skipped - already exists)
+⊘ fotos-politica/b324dabf-6672-4f2c-885a-35423037d070_0.jpg (skipped - already exists)
+⊘ fotos-politica/campaa_electoral.jpg (skipped - already exists)
+⊘ fotos-politica/cuauhtmoc_blanco_bravo_2018-2024.jpg (skipped - already exists)
+⊘ fotos-politica/diego_fernandez.png (skipped - already exists)
+⊘ fotos-politica/ex_gobernador_de_morelos.jpg (skipped - already exists)
+⊘ fotos-politica/ex_gobernador_de_morelos_1.jpg (skipped - already exists)
+⊘ fotos-politica/exgobenmoto.jpeg (skipped - already exists)
+⊘ fotos-politica/figura_poltica_-_retrato.jpg (skipped - already exists)
+⊘ fotos-politica/foto_poltica_adicional.jpg (skipped - already exists)
+⊘ fotos-politica/foto_poltica_adicional_1.jpg (skipped - already exists)
+⊘ fotos-politica/foto_poltica_adicional_2.jpg (skipped - already exists)
+⊘ fotos-politica/fotografa_poltica.jpg (skipped - already exists)
+⊘ fotos-politica/graco_ramirez.jpg (skipped - already exists)
+⊘ fotos-politica/graco_ramrez_abreu_2012-2018.jpg (skipped - already exists)
+⊘ fotos-politica/hombre_politico.png (skipped - already exists)
+⊘ fotos-politica/imagen_pblica.jpg (skipped - already exists)
+⊘ fotos-politica/impacto_visual.jpg (skipped - already exists)
+⊘ fotos-politica/ivonne_ortega_pacheco.jpg (skipped - already exists)
+⊘ fotos-politica/josefina_vzquez_mota.jpg (skipped - already exists)
+⊘ fotos-politica/lopez_portillo.jpg (skipped - already exists)
+⊘ fotos-politica/lopez_portillo_v3.png (skipped - already exists)
+⊘ fotos-politica/manlio_fabio_beltrones.jpg (skipped - already exists)
+⊘ fotos-politica/marco_antonio_adame_castillo_2006-2012.jpg (skipped - already exists)
+⊘ fotos-politica/media__1772046084768.jpg (skipped - already exists)
+⊘ fotos-politica/media__1772046333665.jpg (skipped - already exists)
+⊘ fotos-politica/polit3.png (skipped - already exists)
+⊘ fotos-politica/politica_comunicacion.jpg (skipped - already exists)
+⊘ fotos-politica/politicacamisablanca.jpeg (skipped - already exists)
+⊘ fotos-politica/politico_celebridad.jpg (skipped - already exists)
+⊘ fotos-politica/politico_celebridad_2.jpg (skipped - already exists)
+⊘ fotos-politica/proyeccin_poltica_de_estado.jpg (skipped - already exists)
+⊘ fotos-politica/roberto_madrazo.jpg (skipped - already exists)
+⊘ fotos-politica/sasil_de_len_-_liderazgo.jpg (skipped - already exists)
+⊘ fotos-producto/fotografia-producto.jpeg (skipped - already exists)
+⊘ fotos-producto/media__1772048333760.png (skipped - already exists)
+⊘ fotos-producto/media__1772048333820.png (skipped - already exists)
+⊘ fotos-producto/media__1772048333925.png (skipped - already exists)
+⊘ fotos-producto/media__1772048333944.jpg (skipped - already exists)
+⊘ fotos-producto/media__1772048334043.png (skipped - already exists)
+⊘ fotos-producto/media__1772048718974.png (skipped - already exists)
+⊘ fotos-producto/producto-david.jpg (skipped - already exists)
+⊘ fotos-producto/producto-dinosaurio.jpg (skipped - already exists)
+⊘ fotos-producto/producto-flores-bolsa.jpg (skipped - already exists)
+⊘ fotos-producto/producto-orquidea.jpg (skipped - already exists)
+⊘ fotos-producto/producto-perro-globo.jpg (skipped - already exists)
+⊘ fotos-producto/producto1.jpeg (skipped - already exists)
+⊘ fotos-producto/producto2.jpeg (skipped - already exists)
+⊘ fotos-producto/producto3.jpeg (skipped - already exists)
+⊘ fotos-producto/producto4.jpeg (skipped - already exists)
+⊘ fotos-producto/producto5.jpeg (skipped - already exists)
+⊘ public/FotoEstolas/Gemini_Generated_Image_m8agnlm8agnlm8ag_1.png (skipped - already exists)
+⊘ public/FotoEstolas/Gemini_Generated_Image_na15h2na15h2na15.png (skipped - already exists)
+⊘ public/celebridades/0514807b-fc5f-4341-9420-dd6401b2d4a5_0.jpg (skipped - already exists)
+⊘ public/celebridades/12e23a39-25c7-469a-b74f-b717ce28997f_0.jpg (skipped - already exists)
+⊘ public/celebridades/35c256dc-c8f5-4221-b031-a269785344fa_0.jpg (skipped - already exists)
+⊘ public/celebridades/54ed2c3d-75fc-43a7-a014-c7896d1f9e71_0.jpg (skipped - already exists)
+⊘ public/celebridades/59534e57-a4f1-4e36-95dc-3ee5aad544e0_0.jpg (skipped - already exists)
+⊘ public/celebridades/62f8f133-54cb-4fed-97d4-7ce1c31b66de_0.jpg (skipped - already exists)
+⊘ public/celebridades/7ee061c7-41ff-4531-805b-799df1c2bb30_0.jpg (skipped - already exists)
+⊘ public/celebridades/8489ea74-1c3e-4276-8523-62cb46f83d31_0.jpg (skipped - already exists)
+⊘ public/celebridades/a5a5aec7-88a6-4d50-90ff-ff17bca0c88c_0.jpg (skipped - already exists)
+⊘ public/celebridades/a600ef5e-c0dc-44ab-9aad-21c5b8411879_0.jpg (skipped - already exists)
+⊘ public/celebridades/a8352c95-9693-4ff3-a31d-9454afcc6b62_0.jpg (skipped - already exists)
+⊘ public/celebridades/aaaaebe2-5d90-4a71-ba91-3966eda68ef1_0.jpg (skipped - already exists)
+⊘ public/celebridades/edda0611-57e1-4cdc-be67-2a81c66641eb_0.jpg (skipped - already exists)
 ⊘ public/favicon.jpg (skipped - already exists)
 ⊘ public/favicon.png (skipped - already exists)
-✗ src/assets/articles/01-cafe-olla/gallery_01.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_01.jpg
-Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_01.jpg'
+⊘ public/fotos-identificacion.jpg (skipped - already exists)
+⊘ public/hero-bg-2026.jpg (skipped - already exists)
+⊘ public/icon.png (skipped - already exists)
+⊘ public/photo_day_hacienda.jpg (skipped - already exists)
+⊘ public/qr_code_fotoaleman.png (skipped - already exists)
+⊘ public/videos/temixco-cover-1.jpg (skipped - already exists)
+⊘ public/videos/temixco-cover-2.jpg (skipped - already exists)
+⊘ src/assets/WhatsApp Image 2026-02-19 at 3.03.55 PM.jpeg (skipped - already exists)
+✗ src/assets/articles/01-cafe-olla/gallery_01.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_01.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_01.jpg'
 
-✗ src/assets/articles/01-cafe-olla/gallery_02.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_02.jpg
-Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_02.jpg'
+✗ src/assets/articles/01-cafe-olla/gallery_02.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_02.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_02.jpg'
 
-✗ src/assets/articles/01-cafe-olla/gallery_03.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_03.jpg
-Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_03.jpg'
+✗ src/assets/articles/01-cafe-olla/gallery_03.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_03.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_03.jpg'
 
-✗ src/assets/articles/01-cafe-olla/gallery_04.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_04.jpg
-Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_04.jpg'
+✗ src/assets/articles/01-cafe-olla/gallery_04.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_04.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_04.jpg'
 
-✗ src/assets/articles/01-cafe-olla/gallery_05.jpg - Error: Error! Could not process file /home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_05.jpg
-Error! Cannot read input picture file '/home/david/revistanomada/src/assets/articles/01-cafe-olla/gallery_05.jpg'
+✗ src/assets/articles/01-cafe-olla/gallery_05.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_05.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/src/assets/articles/01-cafe-olla/gallery_05.jpg'
 
-✓ src/assets/articles/01-cafe-olla/location.png -> src/assets/articles/01-cafe-olla/location.webp
-✓ src/assets/articles/01-cafe-olla/map-icon.png -> src/assets/articles/01-cafe-olla/map-icon.webp
-✓ src/assets/articles/02-cafe-helado/location.png -> src/assets/articles/02-cafe-helado/location.webp
-✓ src/assets/articles/02-cafe-helado/map-icon.png -> src/assets/articles/02-cafe-helado/map-icon.webp
-✓ src/assets/articles/03-enchiladas-verdes/location.png -> src/assets/articles/03-enchiladas-verdes/location.webp
-✓ src/assets/articles/04-pan-muerto/location.png -> src/assets/articles/04-pan-muerto/location.webp
-✓ src/assets/articles/05-cafeterias-cuernavaca/location.png -> src/assets/articles/05-cafeterias-cuernavaca/location.webp
-✓ src/assets/articles/05-cafeterias-cuernavaca/map-icon.png -> src/assets/articles/05-cafeterias-cuernavaca/map-icon.webp
-✓ src/assets/articles/06-casa-azul-hotel/location.png -> src/assets/articles/06-casa-azul-hotel/location.webp
-✓ src/assets/articles/07-casa-domingo-miacatlan/location.png -> src/assets/articles/07-casa-domingo-miacatlan/location.webp
-✓ src/assets/articles/08-posada-tlaltenango/location.png -> src/assets/articles/08-posada-tlaltenango/location.webp
-✓ src/assets/articles/09-monumento-zapata/location.png -> src/assets/articles/09-monumento-zapata/location.webp
-✓ src/assets/articles/10-hacienda-cocoyoc/location.png -> src/assets/articles/10-hacienda-cocoyoc/location.webp
-✓ src/assets/articles/11-grutas-cacahuamilpa/location.png -> src/assets/articles/11-grutas-cacahuamilpa/location.webp
-✓ src/assets/articles/12-las-estacas/location.png -> src/assets/articles/12-las-estacas/location.webp
-✓ src/assets/articles/13-canonismo-morelos/location.png -> src/assets/articles/13-canonismo-morelos/location.webp
-✓ src/assets/articles/15-ultraligero-tequesquitengo/location.png -> src/assets/articles/15-ultraligero-tequesquitengo/location.webp
-✓ src/assets/articles/19-convento-yecapixtla/location.png -> src/assets/articles/19-convento-yecapixtla/location.webp
-✓ src/assets/articles/20-hacienda-san-antonio/location.png -> src/assets/articles/20-hacienda-san-antonio/location.webp
-✓ src/assets/articles/21-roma-capitolio/location.png -> src/assets/articles/21-roma-capitolio/location.webp
-✓ src/assets/banner-t3.png -> src/assets/banner-t3.webp
-✓ src/assets/banner_congreso_dark.png -> src/assets/banner_congreso_dark.webp
-✓ src/assets/banner_vertical_gastronomy.png -> src/assets/banner_vertical_gastronomy.webp
-✓ src/assets/banner_vertical_travel.png -> src/assets/banner_vertical_travel.webp
-✓ src/assets/icons/google-maps.png -> src/assets/icons/google-maps.webp
+⊘ src/assets/articles/01-cafe-olla/location.png (skipped - already exists)
+⊘ src/assets/articles/01-cafe-olla/map-icon.png (skipped - already exists)
+⊘ src/assets/articles/02-cafe-helado/location.png (skipped - already exists)
+⊘ src/assets/articles/02-cafe-helado/map-icon.png (skipped - already exists)
+⊘ src/assets/articles/03-enchiladas-verdes/location.png (skipped - already exists)
+⊘ src/assets/articles/04-pan-muerto/location.png (skipped - already exists)
+⊘ src/assets/articles/05-cafeterias-cuernavaca/location.png (skipped - already exists)
+⊘ src/assets/articles/05-cafeterias-cuernavaca/map-icon.png (skipped - already exists)
+⊘ src/assets/articles/06-casa-azul-hotel/location.png (skipped - already exists)
+⊘ src/assets/articles/07-casa-domingo-miacatlan/location.png (skipped - already exists)
+⊘ src/assets/articles/08-posada-tlaltenango/location.png (skipped - already exists)
+⊘ src/assets/articles/09-monumento-zapata/location.png (skipped - already exists)
+⊘ src/assets/articles/10-hacienda-cocoyoc/location.png (skipped - already exists)
+⊘ src/assets/articles/11-grutas-cacahuamilpa/location.png (skipped - already exists)
+⊘ src/assets/articles/12-las-estacas/location.png (skipped - already exists)
+⊘ src/assets/articles/13-canonismo-morelos/location.png (skipped - already exists)
+⊘ src/assets/articles/15-ultraligero-tequesquitengo/location.png (skipped - already exists)
+⊘ src/assets/articles/19-convento-yecapixtla/location.png (skipped - already exists)
+⊘ src/assets/articles/20-hacienda-san-antonio/location.png (skipped - already exists)
+⊘ src/assets/articles/21-roma-capitolio/location.png (skipped - already exists)
+⊘ src/assets/icons/google-maps.png (skipped - already exists)
 ⊘ src/assets/insta_latest_1.jpg (skipped - already exists)
 ⊘ src/assets/insta_latest_2.jpg (skipped - already exists)
 ⊘ src/assets/insta_latest_3.jpg (skipped - already exists)
-✓ src/assets/lake_morelos.png -> src/assets/lake_morelos.webp
-✓ src/assets/landscape_morelos.png -> src/assets/landscape_morelos.webp
-⊘ src/assets/logo_experiencia.jpg (skipped - already exists)
-⊘ src/assets/logo_experiencia.png (skipped - already exists)
-⊘ src/assets/logo_experiencia_source.jpg (skipped - already exists)
-✓ src/assets/logo_experiencia_v2.png -> src/assets/logo_experiencia_v2.webp
-✓ src/assets/logo_experiencia_v3.png -> src/assets/logo_experiencia_v3.webp
-✓ src/assets/logo_experiencia_v4.png -> src/assets/logo_experiencia_v4.webp
-✓ src/assets/logo_footer.png -> src/assets/logo_footer.webp
 ⊘ src/assets/mexico_latest_1.jpg (skipped - already exists)
 ⊘ src/assets/mexico_latest_2.jpg (skipped - already exists)
 ⊘ src/assets/mexico_latest_3.jpg (skipped - already exists)
 ⊘ src/assets/mundo_latest_1.jpg (skipped - already exists)
 ⊘ src/assets/mundo_latest_2.jpg (skipped - already exists)
 ⊘ src/assets/mundo_latest_3.jpg (skipped - already exists)
-⊘ src/assets/nomada_logo_new.jpg (skipped - already exists)
-✓ src/assets/photo_barge.png -> src/assets/photo_barge.webp
-⊘ src/assets/photo_day_colosseum.jpg (skipped - already exists)
-✓ src/assets/photo_day_final.png -> src/assets/photo_day_final.webp
 ⊘ src/assets/photo_day_mountain.jpg (skipped - already exists)
-✓ src/assets/photo_of_day.png -> src/assets/photo_of_day.webp
-✓ src/assets/photo_of_the_day_new.png -> src/assets/photo_of_the_day_new.webp
-✓ src/assets/terra3_logo.png -> src/assets/terra3_logo.webp
-✓ src/content/articles/20-hacienda-san-antonio/image.jpg -> src/content/articles/20-hacienda-san-antonio/image.webp
+⊘ src/assets/photo_day_new.jpg (skipped - already exists)
+⊘ src/assets/photo_of_day.png (skipped - already exists)
+⊘ src/assets/photo_of_the_day_new.png (skipped - already exists)
+⊘ src/assets/reportur_latest_1.jpg (skipped - already exists)
+⊘ src/assets/reportur_latest_2.jpg (skipped - already exists)
+⊘ src/assets/reportur_latest_3.jpg (skipped - already exists)
+⊘ src/assets/terra3_logo.png (skipped - already exists)
 
 ======================================================================
-Successful: 39, Skipped: 18, Failed: 5
-Conversion completed at: 2026-02-03 22:30:59.254742
+Successful: 26, Skipped: 305, Failed: 10
+Conversion completed at: 2026-03-24 12:10:28.607728
