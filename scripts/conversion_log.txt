@@ -1,4 +1,4 @@
-Conversion started at: 2026-03-24 12:10:21.399643
+Conversion started at: 2026-03-24 12:38:31.755780
 Quality level: 85
 ======================================================================
 
@@ -138,153 +138,6 @@ Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/assets/
 ⊘ dist/qr_code_fotoaleman.png (skipped - already exists)
 ⊘ dist/videos/temixco-cover-1.jpg (skipped - already exists)
 ⊘ dist/videos/temixco-cover-2.jpg (skipped - already exists)
-⊘ fotos-bodas/b1738d50-f2c2-45b8-be98-3f46b3e09151_0.jpg (skipped - already exists)
-⊘ fotos-bodas/bodahugosanchez.jpeg (skipped - already exists)
-⊘ fotos-bodas/ee91a68c-f90e-4b9a-ba45-4779d6c65af8_0.jpg (skipped - already exists)
-⊘ fotos-bodas/fotoboda_portada.jpg (skipped - already exists)
-⊘ fotos-bodas/media__1772047965754.jpg (skipped - already exists)
-⊘ fotos-bodas/media__1772047965770.jpg (skipped - already exists)
-⊘ fotos-bodas/media__1772047965793.jpg (skipped - already exists)
-⊘ fotos-bodas/media__1772047965822.jpg (skipped - already exists)
-⊘ fotos-bodas/media__1772047965865.jpg (skipped - already exists)
-✓ fotos-celebridades/Rickymartin.png -> fotos-celebridades/Rickymartin.webp
-✓ fotos-celebridades/celebridad.jpg -> fotos-celebridades/celebridad.webp
-⊘ fotos-celebridades/celebridad.png (skipped - already exists)
-✓ fotos-celebridades/celebridad10.png -> fotos-celebridades/celebridad10.webp
-✓ fotos-celebridades/celebridad_1.jpg -> fotos-celebridades/celebridad_1.webp
-✓ fotos-celebridades/celebridad_10.jpg -> fotos-celebridades/celebridad_10.webp
-✓ fotos-celebridades/celebridad_11.jpg -> fotos-celebridades/celebridad_11.webp
-✓ fotos-celebridades/celebridad_12.jpg -> fotos-celebridades/celebridad_12.webp
-✓ fotos-celebridades/celebridad_13.jpg -> fotos-celebridades/celebridad_13.webp
-✓ fotos-celebridades/celebridad_2.jpg -> fotos-celebridades/celebridad_2.webp
-✓ fotos-celebridades/celebridad_5.jpg -> fotos-celebridades/celebridad_5.webp
-✓ fotos-celebridades/celebridad_6.jpg -> fotos-celebridades/celebridad_6.webp
-✓ fotos-celebridades/celebridad_7.jpg -> fotos-celebridades/celebridad_7.webp
-✓ fotos-celebridades/celebridad_8.jpg -> fotos-celebridades/celebridad_8.webp
-✓ fotos-celebridades/celebridad_9.jpg -> fotos-celebridades/celebridad_9.webp
-✓ fotos-celebridades/celebridadpintor.png -> fotos-celebridades/celebridadpintor.webp
-✓ fotos-celebridades/juan_gabriel_-_el_divo_de_jurez.jpeg -> fotos-celebridades/juan_gabriel_-_el_divo_de_jurez.webp
-✓ fotos-celebridades/la_tigresa.jpeg -> fotos-celebridades/la_tigresa.webp
-✓ fotos-celebridades/margarita.jpeg -> fotos-celebridades/margarita.webp
-✓ fotos-celebridades/salma_hayek.jpg -> fotos-celebridades/salma_hayek.webp
-✓ fotos-celebridades/salmahayek2.jpeg -> fotos-celebridades/salmahayek2.webp
-✓ fotos-celebridades/salmahayek3.jpeg -> fotos-celebridades/salmahayek3.webp
-✓ fotos-celebridades/señor.jpeg -> fotos-celebridades/señor.webp
-✓ fotos-celebridades/señorafamosa.jpeg -> fotos-celebridades/señorafamosa.webp
-✓ fotos-celebridades/talia41.png -> fotos-celebridades/talia41.webp
-✓ fotos-celebridades/taliasd.png -> fotos-celebridades/taliasd.webp
-✓ fotos-celebridades/thalias.png -> fotos-celebridades/thalias.webp
-⊘ fotos-editorial/editorial-el-rollo-historia.png (skipped - already exists)
-⊘ fotos-editorial/editorial-espejos.jpg (skipped - already exists)
-⊘ fotos-editorial/editorial-mockup-arte.jpg (skipped - already exists)
-⊘ fotos-editorial/editorial-nomada.jpg (skipped - already exists)
-⊘ fotos-editorial/editorial-personajes.jpg (skipped - already exists)
-⊘ fotos-editorial/editorial-spread-arte.jpg (skipped - already exists)
-⊘ fotos-editorial/elrollo.jpeg (skipped - already exists)
-⊘ fotos-editorial/nomada-sumiya.jpg (skipped - already exists)
-⊘ fotos-estolas/Estola 1_9929.jpg (skipped - already exists)
-⊘ fotos-estolas/Estola 2_9934.jpg (skipped - already exists)
-⊘ fotos-estolas/Estola 3_9936.jpg (skipped - already exists)
-⊘ fotos-estolas/Estola 4_9942.jpg (skipped - already exists)
-⊘ fotos-estolas/Estola 6_9955.jpg (skipped - already exists)
-⊘ fotos-estolas/Estola 7_9958.jpg (skipped - already exists)
-✗ fotos-estolas/Estola_3_actualizada.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/fotos-estolas/Estola_3_actualizada.jpg
-Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-estolas/Estola_3_actualizada.jpg'
-
-✗ fotos-estolas/Estola_3_actualizada_bak.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/fotos-estolas/Estola_3_actualizada_bak.jpg
-Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-estolas/Estola_3_actualizada_bak.jpg'
-
-✗ fotos-estolas/Estola_4_actualizada.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/fotos-estolas/Estola_4_actualizada.jpg
-Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-estolas/Estola_4_actualizada.jpg'
-
-✗ fotos-estolas/Estola_4_actualizada_bak.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/fotos-estolas/Estola_4_actualizada_bak.jpg
-Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-estolas/Estola_4_actualizada_bak.jpg'
-
-⊘ fotos-estolas/estoladoradaamarilla.png (skipped - already exists)
-⊘ fotos-estolas/estoladoradaamarilla2.jpg (skipped - already exists)
-⊘ fotos-familiar/Familia.jpeg (skipped - already exists)
-⊘ fotos-familiar/NIño.png (skipped - already exists)
-⊘ fotos-familiar/embarazada.jpg (skipped - already exists)
-⊘ fotos-familiar/familia.jpg (skipped - already exists)
-⊘ fotos-familiar/fotografia-infantiles.jpg (skipped - already exists)
-⊘ fotos-familiar/nina.jpg (skipped - already exists)
-⊘ fotos-identificacion/fotos-identificacion.jpg (skipped - already exists)
-⊘ fotos-moda/foto1.jpeg (skipped - already exists)
-⊘ fotos-moda/moda2.png (skipped - already exists)
-⊘ fotos-moda/moda3.png (skipped - already exists)
-⊘ fotos-moda/moda4.png (skipped - already exists)
-⊘ fotos-moda/moda5.png (skipped - already exists)
-⊘ fotos-moda/moda6.png (skipped - already exists)
-⊘ fotos-moda/portada.jpg (skipped - already exists)
-⊘ fotos-opiniones/claudia_cervantes.png (skipped - already exists)
-⊘ fotos-opiniones/jonathan_aldama.png (skipped - already exists)
-⊘ fotos-opiniones/legislatura.png (skipped - already exists)
-⊘ fotos-opiniones/opinion2}_n.jpg (skipped - already exists)
-⊘ fotos-opiniones/opinion_n.jpg (skipped - already exists)
-⊘ fotos-opiniones/opinionmararita_n.jpg (skipped - already exists)
-⊘ fotos-opiniones/oswald_alonso.png (skipped - already exists)
-⊘ fotos-opiniones/portadaopiniones.jpg (skipped - already exists)
-⊘ fotos-opiniones/potadasccion.jpg (skipped - already exists)
-⊘ fotos-opiniones/radio_formula.png (skipped - already exists)
-⊘ fotos-politica/114ac0ef-009b-4ac5-9f6d-6f39b23f182b_0.jpg (skipped - already exists)
-⊘ fotos-politica/GOBERNADORA.jpg (skipped - already exists)
-⊘ fotos-politica/Mujer_Politico_Nueva.png (skipped - already exists)
-⊘ fotos-politica/Politico_Sombrero.png (skipped - already exists)
-⊘ fotos-politica/Politico_Traje.png (skipped - already exists)
-⊘ fotos-politica/amalia_garca.jpg (skipped - already exists)
-⊘ fotos-politica/andrs_manuel_lpez_obrador_amlo.jpg (skipped - already exists)
-⊘ fotos-politica/archivo_poltico.jpg (skipped - already exists)
-⊘ fotos-politica/aristteles_sandoval.jpg (skipped - already exists)
-⊘ fotos-politica/b324dabf-6672-4f2c-885a-35423037d070_0.jpg (skipped - already exists)
-⊘ fotos-politica/campaa_electoral.jpg (skipped - already exists)
-⊘ fotos-politica/cuauhtmoc_blanco_bravo_2018-2024.jpg (skipped - already exists)
-⊘ fotos-politica/diego_fernandez.png (skipped - already exists)
-⊘ fotos-politica/ex_gobernador_de_morelos.jpg (skipped - already exists)
-⊘ fotos-politica/ex_gobernador_de_morelos_1.jpg (skipped - already exists)
-⊘ fotos-politica/exgobenmoto.jpeg (skipped - already exists)
-⊘ fotos-politica/figura_poltica_-_retrato.jpg (skipped - already exists)
-⊘ fotos-politica/foto_poltica_adicional.jpg (skipped - already exists)
-⊘ fotos-politica/foto_poltica_adicional_1.jpg (skipped - already exists)
-⊘ fotos-politica/foto_poltica_adicional_2.jpg (skipped - already exists)
-⊘ fotos-politica/fotografa_poltica.jpg (skipped - already exists)
-⊘ fotos-politica/graco_ramirez.jpg (skipped - already exists)
-⊘ fotos-politica/graco_ramrez_abreu_2012-2018.jpg (skipped - already exists)
-⊘ fotos-politica/hombre_politico.png (skipped - already exists)
-⊘ fotos-politica/imagen_pblica.jpg (skipped - already exists)
-⊘ fotos-politica/impacto_visual.jpg (skipped - already exists)
-⊘ fotos-politica/ivonne_ortega_pacheco.jpg (skipped - already exists)
-⊘ fotos-politica/josefina_vzquez_mota.jpg (skipped - already exists)
-⊘ fotos-politica/lopez_portillo.jpg (skipped - already exists)
-⊘ fotos-politica/lopez_portillo_v3.png (skipped - already exists)
-⊘ fotos-politica/manlio_fabio_beltrones.jpg (skipped - already exists)
-⊘ fotos-politica/marco_antonio_adame_castillo_2006-2012.jpg (skipped - already exists)
-⊘ fotos-politica/media__1772046084768.jpg (skipped - already exists)
-⊘ fotos-politica/media__1772046333665.jpg (skipped - already exists)
-⊘ fotos-politica/polit3.png (skipped - already exists)
-⊘ fotos-politica/politica_comunicacion.jpg (skipped - already exists)
-⊘ fotos-politica/politicacamisablanca.jpeg (skipped - already exists)
-⊘ fotos-politica/politico_celebridad.jpg (skipped - already exists)
-⊘ fotos-politica/politico_celebridad_2.jpg (skipped - already exists)
-⊘ fotos-politica/proyeccin_poltica_de_estado.jpg (skipped - already exists)
-⊘ fotos-politica/roberto_madrazo.jpg (skipped - already exists)
-⊘ fotos-politica/sasil_de_len_-_liderazgo.jpg (skipped - already exists)
-⊘ fotos-producto/fotografia-producto.jpeg (skipped - already exists)
-⊘ fotos-producto/media__1772048333760.png (skipped - already exists)
-⊘ fotos-producto/media__1772048333820.png (skipped - already exists)
-⊘ fotos-producto/media__1772048333925.png (skipped - already exists)
-⊘ fotos-producto/media__1772048333944.jpg (skipped - already exists)
-⊘ fotos-producto/media__1772048334043.png (skipped - already exists)
-⊘ fotos-producto/media__1772048718974.png (skipped - already exists)
-⊘ fotos-producto/producto-david.jpg (skipped - already exists)
-⊘ fotos-producto/producto-dinosaurio.jpg (skipped - already exists)
-⊘ fotos-producto/producto-flores-bolsa.jpg (skipped - already exists)
-⊘ fotos-producto/producto-orquidea.jpg (skipped - already exists)
-⊘ fotos-producto/producto-perro-globo.jpg (skipped - already exists)
-⊘ fotos-producto/producto1.jpeg (skipped - already exists)
-⊘ fotos-producto/producto2.jpeg (skipped - already exists)
-⊘ fotos-producto/producto3.jpeg (skipped - already exists)
-⊘ fotos-producto/producto4.jpeg (skipped - already exists)
-⊘ fotos-producto/producto5.jpeg (skipped - already exists)
 ⊘ public/FotoEstolas/Gemini_Generated_Image_m8agnlm8agnlm8ag_1.png (skipped - already exists)
 ⊘ public/FotoEstolas/Gemini_Generated_Image_na15h2na15h2na15.png (skipped - already exists)
 ⊘ public/celebridades/0514807b-fc5f-4341-9420-dd6401b2d4a5_0.jpg (skipped - already exists)
@@ -302,7 +155,154 @@ Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/fotos-e
 ⊘ public/celebridades/edda0611-57e1-4cdc-be67-2a81c66641eb_0.jpg (skipped - already exists)
 ⊘ public/favicon.jpg (skipped - already exists)
 ⊘ public/favicon.png (skipped - already exists)
+⊘ public/fotos-bodas/b1738d50-f2c2-45b8-be98-3f46b3e09151_0.jpg (skipped - already exists)
+⊘ public/fotos-bodas/bodahugosanchez.jpeg (skipped - already exists)
+⊘ public/fotos-bodas/ee91a68c-f90e-4b9a-ba45-4779d6c65af8_0.jpg (skipped - already exists)
+⊘ public/fotos-bodas/fotoboda_portada.jpg (skipped - already exists)
+⊘ public/fotos-bodas/media__1772047965754.jpg (skipped - already exists)
+⊘ public/fotos-bodas/media__1772047965770.jpg (skipped - already exists)
+⊘ public/fotos-bodas/media__1772047965793.jpg (skipped - already exists)
+⊘ public/fotos-bodas/media__1772047965822.jpg (skipped - already exists)
+⊘ public/fotos-bodas/media__1772047965865.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/Rickymartin.png (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad.png (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad10.png (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_1.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_10.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_11.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_12.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_13.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_2.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_5.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_6.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_7.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_8.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridad_9.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/celebridadpintor.png (skipped - already exists)
+⊘ public/fotos-celebridades/juan_gabriel_-_el_divo_de_jurez.jpeg (skipped - already exists)
+⊘ public/fotos-celebridades/la_tigresa.jpeg (skipped - already exists)
+⊘ public/fotos-celebridades/salma_hayek.jpg (skipped - already exists)
+⊘ public/fotos-celebridades/salmahayek2.jpeg (skipped - already exists)
+⊘ public/fotos-celebridades/salmahayek3.jpeg (skipped - already exists)
+⊘ public/fotos-celebridades/señor.jpeg (skipped - already exists)
+⊘ public/fotos-celebridades/señorafamosa.jpeg (skipped - already exists)
+⊘ public/fotos-celebridades/talia41.png (skipped - already exists)
+⊘ public/fotos-celebridades/taliasd.png (skipped - already exists)
+⊘ public/fotos-celebridades/thalias.png (skipped - already exists)
+⊘ public/fotos-editorial/editorial-el-rollo-historia.png (skipped - already exists)
+⊘ public/fotos-editorial/editorial-espejos.jpg (skipped - already exists)
+⊘ public/fotos-editorial/editorial-mockup-arte.jpg (skipped - already exists)
+⊘ public/fotos-editorial/editorial-nomada.jpg (skipped - already exists)
+⊘ public/fotos-editorial/editorial-personajes.jpg (skipped - already exists)
+⊘ public/fotos-editorial/editorial-spread-arte.jpg (skipped - already exists)
+⊘ public/fotos-editorial/elrollo.jpeg (skipped - already exists)
+⊘ public/fotos-editorial/nomada-sumiya.jpg (skipped - already exists)
+⊘ public/fotos-estolas/Estola 1_9929.jpg (skipped - already exists)
+⊘ public/fotos-estolas/Estola 2_9934.jpg (skipped - already exists)
+⊘ public/fotos-estolas/Estola 3_9936.jpg (skipped - already exists)
+⊘ public/fotos-estolas/Estola 4_9942.jpg (skipped - already exists)
+⊘ public/fotos-estolas/Estola 6_9955.jpg (skipped - already exists)
+⊘ public/fotos-estolas/Estola 7_9958.jpg (skipped - already exists)
+✗ public/fotos-estolas/Estola_3_actualizada.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/public/fotos-estolas/Estola_3_actualizada.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/public/fotos-estolas/Estola_3_actualizada.jpg'
+
+✗ public/fotos-estolas/Estola_3_actualizada_bak.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/public/fotos-estolas/Estola_3_actualizada_bak.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/public/fotos-estolas/Estola_3_actualizada_bak.jpg'
+
+✗ public/fotos-estolas/Estola_4_actualizada.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/public/fotos-estolas/Estola_4_actualizada.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/public/fotos-estolas/Estola_4_actualizada.jpg'
+
+✗ public/fotos-estolas/Estola_4_actualizada_bak.jpg - Error: Error! Could not process file /home/david/Escritorio/fotoaleman/public/fotos-estolas/Estola_4_actualizada_bak.jpg
+Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/public/fotos-estolas/Estola_4_actualizada_bak.jpg'
+
+⊘ public/fotos-estolas/estoladoradaamarilla.png (skipped - already exists)
+⊘ public/fotos-estolas/estoladoradaamarilla2.jpg (skipped - already exists)
+⊘ public/fotos-familiar/Familia.jpeg (skipped - already exists)
+⊘ public/fotos-familiar/NIño.png (skipped - already exists)
+⊘ public/fotos-familiar/embarazada.jpg (skipped - already exists)
+⊘ public/fotos-familiar/familia.jpg (skipped - already exists)
+⊘ public/fotos-familiar/fotografia-infantiles.jpg (skipped - already exists)
+⊘ public/fotos-familiar/nina.jpg (skipped - already exists)
+⊘ public/fotos-identificacion/fotos-identificacion.jpg (skipped - already exists)
 ⊘ public/fotos-identificacion.jpg (skipped - already exists)
+⊘ public/fotos-moda/foto1.jpeg (skipped - already exists)
+⊘ public/fotos-moda/moda2.png (skipped - already exists)
+⊘ public/fotos-moda/moda3.png (skipped - already exists)
+⊘ public/fotos-moda/moda4.png (skipped - already exists)
+⊘ public/fotos-moda/moda5.png (skipped - already exists)
+⊘ public/fotos-moda/moda6.png (skipped - already exists)
+⊘ public/fotos-moda/portada.jpg (skipped - already exists)
+⊘ public/fotos-opiniones/claudia_cervantes.png (skipped - already exists)
+⊘ public/fotos-opiniones/jonathan_aldama.png (skipped - already exists)
+⊘ public/fotos-opiniones/legislatura.png (skipped - already exists)
+⊘ public/fotos-opiniones/opinion2}_n.jpg (skipped - already exists)
+⊘ public/fotos-opiniones/opinion_n.jpg (skipped - already exists)
+⊘ public/fotos-opiniones/opinionmararita_n.jpg (skipped - already exists)
+⊘ public/fotos-opiniones/oswald_alonso.png (skipped - already exists)
+⊘ public/fotos-opiniones/portadaopiniones.jpg (skipped - already exists)
+⊘ public/fotos-opiniones/potadasccion.jpg (skipped - already exists)
+⊘ public/fotos-opiniones/radio_formula.png (skipped - already exists)
+⊘ public/fotos-politica/114ac0ef-009b-4ac5-9f6d-6f39b23f182b_0.jpg (skipped - already exists)
+⊘ public/fotos-politica/GOBERNADORA.jpg (skipped - already exists)
+⊘ public/fotos-politica/Mujer_Politico_Nueva.png (skipped - already exists)
+⊘ public/fotos-politica/Politico_Sombrero.png (skipped - already exists)
+⊘ public/fotos-politica/Politico_Traje.png (skipped - already exists)
+⊘ public/fotos-politica/amalia_garca.jpg (skipped - already exists)
+⊘ public/fotos-politica/andrs_manuel_lpez_obrador_amlo.jpg (skipped - already exists)
+⊘ public/fotos-politica/archivo_poltico.jpg (skipped - already exists)
+⊘ public/fotos-politica/aristteles_sandoval.jpg (skipped - already exists)
+⊘ public/fotos-politica/b324dabf-6672-4f2c-885a-35423037d070_0.jpg (skipped - already exists)
+⊘ public/fotos-politica/campaa_electoral.jpg (skipped - already exists)
+⊘ public/fotos-politica/cuauhtmoc_blanco_bravo_2018-2024.jpg (skipped - already exists)
+⊘ public/fotos-politica/diego_fernandez.png (skipped - already exists)
+⊘ public/fotos-politica/ex_gobernador_de_morelos.jpg (skipped - already exists)
+⊘ public/fotos-politica/ex_gobernador_de_morelos_1.jpg (skipped - already exists)
+⊘ public/fotos-politica/exgobenmoto.jpeg (skipped - already exists)
+⊘ public/fotos-politica/figura_poltica_-_retrato.jpg (skipped - already exists)
+⊘ public/fotos-politica/foto_poltica_adicional.jpg (skipped - already exists)
+⊘ public/fotos-politica/foto_poltica_adicional_1.jpg (skipped - already exists)
+⊘ public/fotos-politica/foto_poltica_adicional_2.jpg (skipped - already exists)
+⊘ public/fotos-politica/fotografa_poltica.jpg (skipped - already exists)
+⊘ public/fotos-politica/graco_ramirez.jpg (skipped - already exists)
+⊘ public/fotos-politica/graco_ramrez_abreu_2012-2018.jpg (skipped - already exists)
+⊘ public/fotos-politica/hombre_politico.png (skipped - already exists)
+⊘ public/fotos-politica/imagen_pblica.jpg (skipped - already exists)
+⊘ public/fotos-politica/impacto_visual.jpg (skipped - already exists)
+⊘ public/fotos-politica/ivonne_ortega_pacheco.jpg (skipped - already exists)
+⊘ public/fotos-politica/josefina_vzquez_mota.jpg (skipped - already exists)
+⊘ public/fotos-politica/lopez_portillo.jpg (skipped - already exists)
+⊘ public/fotos-politica/lopez_portillo_v3.png (skipped - already exists)
+⊘ public/fotos-politica/manlio_fabio_beltrones.jpg (skipped - already exists)
+⊘ public/fotos-politica/marco_antonio_adame_castillo_2006-2012.jpg (skipped - already exists)
+✓ public/fotos-politica/margarita.jpeg -> public/fotos-politica/margarita.webp
+⊘ public/fotos-politica/media__1772046084768.jpg (skipped - already exists)
+⊘ public/fotos-politica/media__1772046333665.jpg (skipped - already exists)
+⊘ public/fotos-politica/polit3.png (skipped - already exists)
+⊘ public/fotos-politica/politica_comunicacion.jpg (skipped - already exists)
+⊘ public/fotos-politica/politicacamisablanca.jpeg (skipped - already exists)
+⊘ public/fotos-politica/politico_celebridad.jpg (skipped - already exists)
+⊘ public/fotos-politica/politico_celebridad_2.jpg (skipped - already exists)
+⊘ public/fotos-politica/proyeccin_poltica_de_estado.jpg (skipped - already exists)
+⊘ public/fotos-politica/roberto_madrazo.jpg (skipped - already exists)
+⊘ public/fotos-politica/sasil_de_len_-_liderazgo.jpg (skipped - already exists)
+⊘ public/fotos-producto/fotografia-producto.jpeg (skipped - already exists)
+⊘ public/fotos-producto/media__1772048333760.png (skipped - already exists)
+⊘ public/fotos-producto/media__1772048333820.png (skipped - already exists)
+⊘ public/fotos-producto/media__1772048333925.png (skipped - already exists)
+⊘ public/fotos-producto/media__1772048333944.jpg (skipped - already exists)
+⊘ public/fotos-producto/media__1772048334043.png (skipped - already exists)
+⊘ public/fotos-producto/media__1772048718974.png (skipped - already exists)
+⊘ public/fotos-producto/producto-david.jpg (skipped - already exists)
+⊘ public/fotos-producto/producto-dinosaurio.jpg (skipped - already exists)
+⊘ public/fotos-producto/producto-flores-bolsa.jpg (skipped - already exists)
+⊘ public/fotos-producto/producto-orquidea.jpg (skipped - already exists)
+⊘ public/fotos-producto/producto-perro-globo.jpg (skipped - already exists)
+⊘ public/fotos-producto/producto1.jpeg (skipped - already exists)
+⊘ public/fotos-producto/producto2.jpeg (skipped - already exists)
+⊘ public/fotos-producto/producto3.jpeg (skipped - already exists)
+⊘ public/fotos-producto/producto4.jpeg (skipped - already exists)
+⊘ public/fotos-producto/producto5.jpeg (skipped - already exists)
 ⊘ public/hero-bg-2026.jpg (skipped - already exists)
 ⊘ public/icon.png (skipped - already exists)
 ⊘ public/photo_day_hacienda.jpg (skipped - already exists)
@@ -365,5 +365,5 @@ Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/src/ass
 ⊘ src/assets/terra3_logo.png (skipped - already exists)
 
 ======================================================================
-Successful: 26, Skipped: 305, Failed: 10
-Conversion completed at: 2026-03-24 12:10:28.607728
+Successful: 1, Skipped: 330, Failed: 10
+Conversion completed at: 2026-03-24 12:38:31.919816
