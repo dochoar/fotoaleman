@@ -2015,30 +2015,39 @@ footer p {
 
 /* Footer QR section */
 .qr-footer {
-    margin: 0 auto 40px;
-    max-width: 300px;
-    color: var(--color-black);
+    display: inline-block;
+    background-color: var(--color-white);
+    padding: 30px;
+    border-radius: 12px;
+    margin: 40px auto;
     text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
 }
 
 .qr-footer img {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 .qr-footer .qr-title {
-    margin-top: 15px;
+    margin-top: 20px;
     font-weight: 700;
     color: var(--color-black);
     font-size: 1.4rem;
     text-align: center;
     letter-spacing: 1px;
+    font-family: var(--font-serif);
 }
 
 .qr-footer .qr-url {
-    font-size: 0.9rem;
-    color: var(--color-black);
+    font-size: 1rem;
+    color: #555;
     margin-top: 5px;
+    text-align: center;
+    font-family: var(--font-main);
 }
 
 /* Footer bottom bar */
