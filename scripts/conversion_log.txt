@@ -1,4 +1,4 @@
-Conversion started at: 2026-03-24 12:38:31.755780
+Conversion started at: 2026-03-24 12:50:44.843408
 Quality level: 85
 ======================================================================
 
@@ -167,7 +167,7 @@ Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/assets/
 ⊘ public/fotos-celebridades/Rickymartin.png (skipped - already exists)
 ⊘ public/fotos-celebridades/celebridad.jpg (skipped - already exists)
 ⊘ public/fotos-celebridades/celebridad.png (skipped - already exists)
-⊘ public/fotos-celebridades/celebridad10.png (skipped - already exists)
+✓ public/fotos-celebridades/celebridad10.png -> public/fotos-celebridades/celebridad10.webp
 ⊘ public/fotos-celebridades/celebridad_1.jpg (skipped - already exists)
 ⊘ public/fotos-celebridades/celebridad_10.jpg (skipped - already exists)
 ⊘ public/fotos-celebridades/celebridad_11.jpg (skipped - already exists)
@@ -275,7 +275,7 @@ Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/public/
 ⊘ public/fotos-politica/lopez_portillo_v3.png (skipped - already exists)
 ⊘ public/fotos-politica/manlio_fabio_beltrones.jpg (skipped - already exists)
 ⊘ public/fotos-politica/marco_antonio_adame_castillo_2006-2012.jpg (skipped - already exists)
-✓ public/fotos-politica/margarita.jpeg -> public/fotos-politica/margarita.webp
+⊘ public/fotos-politica/margarita.jpeg (skipped - already exists)
 ⊘ public/fotos-politica/media__1772046084768.jpg (skipped - already exists)
 ⊘ public/fotos-politica/media__1772046333665.jpg (skipped - already exists)
 ⊘ public/fotos-politica/polit3.png (skipped - already exists)
@@ -366,4 +366,4 @@ Error! Cannot read input picture file '/home/david/Escritorio/fotoaleman/src/ass
 
 ======================================================================
 Successful: 1, Skipped: 330, Failed: 10
-Conversion completed at: 2026-03-24 12:38:31.919816
+Conversion completed at: 2026-03-24 12:50:45.459920
