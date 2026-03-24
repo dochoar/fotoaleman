@@ -45,7 +45,6 @@ ul {
 }
 
 /* --- TYPOGRAPHY --- */
-/* --- TYPOGRAPHY --- */
 h1,
 h2,
 h3,
@@ -705,10 +704,7 @@ header.scrolled .mobile-menu-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.card-img-container.contain-img .card-img {
-    object-fit: contain !important;
+    padding: 20px;
 }
 
 .card-img {
@@ -951,10 +947,10 @@ footer p {
     .hero-content h2 {
         font-size: 3rem;
     }
-}
 
-.section-header h2 {
-    font-size: 2rem;
+    .section-header h2 {
+        font-size: 2rem;
+    }
 }
 
 /* --- LIGHTBOX (MODAL) --- */
@@ -1026,11 +1022,21 @@ footer p {
     font-size: 1.2rem;
 }
 
+#caption h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+#caption p {
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
 /* --- CAROUSEL --- */
 .celebrity-carousel {
     position: relative;
-    height: 500px;
-    width: 100%;
+    height: 600px;
+    width: 80%;
     max-width: 900px;
     margin: 60px auto 0;
     opacity: 0;
@@ -1075,36 +1081,27 @@ footer p {
     object-position: center;
 }
 
-.carousel-button {
+.celebrity-carousel .carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.7);
-    border: none;
+    background: transparent;
+    border: 0;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    color: var(--color-black);
-    transition: var(--transition);
     z-index: 10;
 }
 
-.carousel-button:hover {
-    background: var(--color-gold);
-    color: var(--color-white);
+.celebrity-carousel .carousel-button i {
+    color: #fff;
+    font-size: 2rem;
 }
 
-.carousel-button--left {
-    left: -20px;
+.celebrity-carousel .carousel-button--left {
+    left: -40px;
 }
 
-.carousel-button--right {
-    right: -20px;
+.celebrity-carousel .carousel-button--right {
+    right: -40px;
 }
 
 .carousel-nav {
@@ -1147,28 +1144,6 @@ footer p {
     .carousel-button--right {
         right: 10px;
     }
-}
-
-/* Make sure the modal caption supports HTML */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-#caption h3 {
-    color: white;
-    margin-bottom: 5px;
-}
-
-#caption p {
-    color: #aaa;
-    margin-bottom: 5px;
 }
 
 /* PLACA Badge Styling */
@@ -1266,7 +1241,7 @@ footer p {
 } */
 
 .video-card.playing .video-overlay {
-    opacity: 0 !important;
+    opacity: 0;
     pointer-events: none;
 }
 
@@ -1395,7 +1370,7 @@ footer p {
     .featured-image img {
         max-height: 400px;
         width: 100%;
-        object-fit: contain !important;
+        object-fit: contain;
     }
 
     /* Video Carousel Fixes */
@@ -1418,7 +1393,7 @@ footer p {
     .contact-grid,
     .trajectory-grid,
     .celebrity-grid {
-        grid-template-columns: 1fr !important;
+        grid-template-columns: 1fr;
     }
 
     .mobile-menu-btn {
@@ -1778,7 +1753,7 @@ footer p {
 }
 
 /* Carousel Navigation Buttons */
-.carousel-button {
+.reviews-carousel .carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -1793,17 +1768,17 @@ footer p {
     padding: 20px;
 }
 
-.carousel-button:hover {
+.reviews-carousel .carousel-button:hover {
     opacity: 1;
     color: var(--color-gold-light);
     transform: translateY(-50%) scale(1.1);
 }
 
-.carousel-button--left {
+.reviews-carousel .carousel-button--left {
     left: -80px;
 }
 
-.carousel-button--right {
+.reviews-carousel .carousel-button--right {
     right: -80px;
 }
 
@@ -1813,25 +1788,23 @@ footer p {
 
 /* Hide arrows on mobile to avoid overflow issues */
 @media (max-width: 1100px) {
-    .carousel-button--left {
+    .reviews-carousel .carousel-button--left {
         left: -40px;
     }
-    .carousel-button--right {
+    .reviews-carousel .carousel-button--right {
         right: -40px;
     }
 }
 
 @media (max-width: 900px) {
-    .carousel-button {
-        display: none; /* Dots are enough for mobile */
+    .reviews-carousel .carousel-button {
+        display: none;
     }
-    
+
     .celebrity-carousel {
-        height: 480px !important; /* Ensure visibility on mobile */
+        height: 480px;
     }
 }
-
-/* Git sync point */
 
 .reviews-carousel {
     position: relative;
@@ -1997,6 +1970,96 @@ footer p {
     .review-card {
         padding: 40px 20px;
     }
+}
+
+/* --- UTILITY CLASSES --- */
+.bg-black {
+    background-color: var(--color-black);
+}
+
+/* Section header compact variant */
+.section-header.compact {
+    margin-bottom: 30px;
+}
+
+/* Featured section image */
+.featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* Hero category gold variant */
+.hero-category--gold {
+    border-color: rgba(199, 154, 107, 0.4);
+    color: var(--color-gold);
+}
+
+/* Footer social links */
+.social-links {
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 25px;
+    font-size: 3rem;
+    color: var(--color-white);
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--color-gold);
+}
+
+/* Footer QR section */
+.qr-footer {
+    margin: 0 auto 40px;
+    max-width: 300px;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.qr-footer img {
+    width: 180px;
+    height: 180px;
+}
+
+.qr-footer .qr-title {
+    margin-top: 15px;
+    font-weight: 700;
+    color: var(--color-black);
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.qr-footer .qr-url {
+    font-size: 0.9rem;
+    color: var(--color-black);
+    margin-top: 5px;
+}
+
+/* Footer bottom bar */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    color: #666;
+}
+
+.footer-credit {
+    margin-top: 10px;
+    font-size: 0.65rem;
+    opacity: 0.5;
+}
+
+.footer-credit a {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s;
 }
 
 /* --- PREVENT IMAGE DOWNLOAD (Except QR) --- */
