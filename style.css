@@ -1811,6 +1811,10 @@ footer p {
     .carousel-slide img {
         object-fit: cover;
     }
+
+    .carousel-slide.panorama-slide img {
+        object-fit: contain;
+    }
 }
 
 .reviews-carousel {
