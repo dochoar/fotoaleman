@@ -1133,7 +1133,8 @@ footer p {
 
 @media (max-width: 768px) {
     .celebrity-carousel {
-        height: 300px;
+        height: auto;
+        aspect-ratio: 2/3;
         width: 90%;
     }
 
@@ -1802,7 +1803,8 @@ footer p {
     }
 
     .celebrity-carousel {
-        height: 480px;
+        height: auto;
+        aspect-ratio: 2/3;
     }
 }
 
