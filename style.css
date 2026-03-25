@@ -1805,6 +1805,11 @@ footer p {
     .celebrity-carousel {
         height: auto;
         aspect-ratio: 2/3;
+        width: 100%;
+    }
+
+    .carousel-slide img {
+        object-fit: cover;
     }
 }
 
