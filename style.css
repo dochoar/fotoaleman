@@ -1809,11 +1809,21 @@ footer p {
     }
 
     .carousel-slide img {
-        object-fit: cover;
+        object-fit: contain;
+    }
+
+    .carousel-slide.panorama-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .carousel-slide.panorama-slide img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;
         object-fit: contain;
+        background-color: #111;
     }
 }
 
