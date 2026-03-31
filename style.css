@@ -1081,10 +1081,6 @@ footer p {
     object-position: center;
 }
 
-.carousel-slide.panorama-slide img {
-    object-fit: cover;
-}
-
 .celebrity-carousel .carousel-button {
     position: absolute;
     top: 50%;
