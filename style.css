@@ -1081,18 +1081,6 @@ footer p {
     object-position: center;
 }
 
-.carousel-slide.panorama-slide {
-    background-color: #111;
-    border: 1px solid #1a1a1a;
-    border-radius: var(--radius);
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.carousel-slide.panorama-slide img {
-    border-radius: calc(var(--radius) - 5px);
-}
-
 .celebrity-carousel .carousel-button {
     position: absolute;
     top: 50%;
