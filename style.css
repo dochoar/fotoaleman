@@ -1812,7 +1812,21 @@ footer p {
         object-fit: cover;
     }
 
+    .carousel-slide.vertical-contain img {
+        object-fit: contain;
+    }
+
+    .carousel-slide.panorama-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+    }
+
     .carousel-slide.panorama-slide img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
         object-fit: contain;
     }
 }
