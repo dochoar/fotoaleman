@@ -2079,15 +2079,15 @@ footer p {
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 20px;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     letter-spacing: 0.05em;
-    color: #666;
+    color: var(--color-white);
 }
 
 .footer-credit {
     margin-top: 10px;
-    font-size: 0.65rem;
-    opacity: 0.5;
+    font-size: 0.8rem;
+    opacity: 0.8;
 }
 
 .footer-credit a {
